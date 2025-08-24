@@ -25,12 +25,10 @@ export default function TestimonialSection() {
   return (
     <section className="w-full bg-white py-20 px-4 font-poppins">
       <div className="max-w-6xl mx-auto text-center">
-        {/* Subheading */}
         <p className="text-[#E44F39] text-sm font-medium tracking-wider uppercase mb-2">
           ------ Client Testimonial ------
         </p>
 
-        {/* Main Heading */}
         <h2 className="font-outfit text-4xl md:text-5xl font-bold mb-12">
           Excellence in Every Pixel <br />
           Where <span className="text-[#E44F39]">Ideas</span>

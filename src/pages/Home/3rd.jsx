@@ -73,14 +73,12 @@ export default function ToolsSection() {
 
   return (
     <div className="bg-white py-12 px-4 sm:px-6 lg:px-16">
-      {/* Constrain the inner content so the category bar won't fill entire screen */}
       <div className=" mx-auto">
         {/* Heading */}
         <h2 className="text-xl md:text-2xl font-bold font-outfit mb-6 text-center lg:text-left">
           Smart Tools Built for Global Buyers
         </h2>
 
-        {/* Category box: inline-flex so it sizes to content and wraps when needed */}
         <div className="inline-flex flex-wrap items-center gap-2 bg-[#FDE0C0] rounded-lg px-3 py-2 mb-8 mx-auto lg:mx-0">
           {Object.keys(categories).map((cat) => (
             <button
@@ -98,7 +96,6 @@ export default function ToolsSection() {
           ))}
         </div>
 
-        {/* Navigation Arrows (layout-preserving) */}
         <div className="flex justify-center lg:justify-end items-center mb-6 gap-3">
           <button
             className="p-2 border rounded-full hover:bg-gray-100"

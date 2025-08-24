@@ -51,7 +51,6 @@ export default function ConsultationBooking() {
   return (
     <div className="min-h-screen bg-[#FCFFE9] font-[Poppins] px-4 py-16">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-3 gap-10">
-        {/* ========== LEFT: Calendar Section ========== */}
         <div>
           {/* Heading outside card */}
           <h2 className="text-4xl font-[Outfit] font-bold mb-6">Ask an expert</h2>

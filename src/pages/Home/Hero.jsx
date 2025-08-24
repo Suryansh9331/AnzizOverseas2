@@ -45,7 +45,6 @@ export default function Hero() {
             <span className="text-[#E44F39]">INSTANTLY.</span>
           </h1>
 
-          {/* Images + Buttons Section */}
           <div className="flex flex-col lg:flex-row gap-6 lg:gap-10">
             {/* First Image + Button */}
             <div className="flex flex-col gap-4 w-full lg:w-[45%]">
@@ -97,7 +96,6 @@ export default function Hero() {
                   className="w-full rounded-xl object-cover"
                 />
 
-                {/* Button overlaps bottom-right of image */}
                 <button
                   className="absolute -bottom-1  -right-2 bg-[#E44F39] hover:bg-[#c63b2a] transition text-white text-xs font-semibold px-4 py-3 rounded-full shadow-md"
                   onClick={() =>
