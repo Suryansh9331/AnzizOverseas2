@@ -27,7 +27,6 @@ const TrustBadge = () => {
                 {/* Cards Section */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                     
-                    {/* Card 1 - Verified by Anji's Overseas */}
                     <div className="bg-white rounded-2xl border-2 border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300">
                         <div className="mb-6">
                             <img 

@@ -8,7 +8,6 @@ import ComplianceCertificates from "./Certificate";
 import ProductCatalogs from "./catalog";
 import Img8 from '../../assets/sollutions/image8.png'
 import Img9 from '../../assets/sollutions/image9.png'
-// import { ArrowRight, Play, Phone, Check } from 'lucide-react'
 
 const Verified = () => {
   const [formData, setFormData] = useState({
@@ -33,7 +32,6 @@ const Verified = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form submitted:", formData);
-    // Handle form submission here
   };
 
   return (

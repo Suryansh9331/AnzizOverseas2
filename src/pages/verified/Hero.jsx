@@ -39,7 +39,6 @@ export default function Hero() {
                         </button>
                     </div>
                     
-                    {/* Right side - empty for now (background image will show) */}
                     <div className="hidden lg:block flex-1"></div>
                 </div>
             </div>
