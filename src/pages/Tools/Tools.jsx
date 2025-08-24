@@ -304,7 +304,6 @@ const Tools = () => {
       {/* Section Header */}
       <div className="py-12 sm:py-16 px-4 sm:px-6 bg-white">
         <div className="max-w-6xl mx-auto text-center">
-          {/* Small Orange Text with Dotted Lines */}
           <div className="flex items-center justify-center mb-6 sm:mb-8">
             {/* Left Dotted Line */}
             <div className="flex-1 max-w-8 sm:max-w-16">

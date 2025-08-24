@@ -86,14 +86,12 @@ export default Logistic;
 
 
 
-// Sample images - replace with your actual imports
 const seaFreightImg = "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=250&fit=crop";
 const airFreightImg = "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=250&fit=crop";
 const doorToDoorImg = "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?w=400&h=250&fit=crop";
 const warehouseImg = "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&h=250&fit=crop";
 const trackingImg = "https://images.unsplash.com/photo-1494412685616-a5d310fbb07d?w=400&h=250&fit=crop";
 
-// Service data arrays
 const leftSectionServices = [
   {
     id: 1,
