@@ -49,7 +49,7 @@ export default function ConsultationBooking() {
   };
 
   return (
-    <div className="min-h-screen bg-[#FCFFE9] font-[Poppins] px-4 py-16">
+    <div className="min-h-screen bg-[#DDF2FF] font-[Poppins] px-4 py-16">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-3 gap-10">
         <div>
           {/* Heading outside card */}
@@ -118,7 +118,7 @@ export default function ConsultationBooking() {
 
           {/* Timezone (outside card, centered) */}
           <div className="mt-6 flex justify-center">
-            <div className="flex items-center gap-2 bg-white shadow rounded-lg px-4 py-2">
+            <div className="flex items-center gap-2 bg-[#C9EAFF] shadow rounded-lg px-4 py-2">
               <span className="font-semibold">Timezone:</span>
               <select className="border rounded-lg px-3 py-1">
                 <option>Asia/Calcutta</option>
@@ -140,7 +140,7 @@ export default function ConsultationBooking() {
                 className={`px-4 py-2 rounded-lg ${
                   selectedTime === t
                     ? "bg-[#1DA1F2] text-white "
-                    : "bg-gray-100  text-[#1DA1F2] hover:bg-gray-200"
+                    : "bg-[#C9EAFF]  text-[#1DA1F2] hover:bg-gray-200"
                 }`}
               >
                 {t}
@@ -152,8 +152,8 @@ export default function ConsultationBooking() {
         {/* ========== RIGHT: Meeting Details ========== */}
         <div className="relative">
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center">
-              <Phone className="text-[#1DA1F2]" />
+            <div className="w-12 h-12 bg-[#1DA1F2] rounded-full flex items-center justify-center">
+              <Phone className="text-white" />
             </div>
             <h3 className="text-xl font-[Outfit] font-semibold">
               Book a 1-on-1 Consultation with Mr. Suprans

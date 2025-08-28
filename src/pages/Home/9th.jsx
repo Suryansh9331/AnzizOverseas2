@@ -53,7 +53,7 @@ const GlobalTradeSection = () => {
         {/* Stats Section */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-12 mb-16 lg:mb-20">
           {stats.map((stat, index) => (
-            <div key={index} className="text-center">
+            <div key={index} className="text-center bg-[#E4F5FF] rounded-2xl py-6">
               <div 
                 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-2"
                 style={{ color: '#1DA1F2' }}
