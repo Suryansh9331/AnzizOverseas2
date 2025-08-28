@@ -54,12 +54,12 @@ export default function TestimonialSection() {
                 >
                   <h3 className="font-outfit text-lg font-bold">{t.name}</h3>
                   <p className="text-sm text-gray-500 mb-3">{t.role}</p>
-                  <p className="text-gray-700 mb-6">{t.text}</p>
+                  <p className="text-[#7B7B7B] font-[poppins] mb-6">{t.text}</p>
                   <div className="flex justify-between items-center">
                     <Quote className="text-[#1DA1F2]" />
-                    <div className="flex gap-1 text-[#1DA1F2]">
+                    <div className="flex gap-1 text-yellow-400">
                       {[...Array(5)].map((_, idx) => (
-                        <Star key={idx} size={16} fill="#1DA1F2" stroke="none" />
+                        <Star key={idx} size={16} fill="#FFB124" stroke="none" />
                       ))}
                     </div>
                   </div>
