@@ -2,6 +2,12 @@ import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import img1 from "../../assets/Home/p1.png"
 import img2 from "../../assets/Home/p2.png"
+import img3 from "../../assets/Home/p3.png"
+import img4 from "../../assets/Home/p4.png"
+import img5 from "../../assets/Home/p5.png"
+import img6 from "../../assets/Home/p6.png"
+import img7 from "../../assets/Home/p7.png"
+import img8 from "../../assets/Home/p8.png"
 const categories = {
   Documentation: [
     {
@@ -14,43 +20,43 @@ const categories = {
       title: "Product Catalog",
       description:
         "Browse a vast catalog of products from verified suppliers across various categories.",
-      img: "https://images.unsplash.com/photo-1605902711622-cfb43c4437b5?q=80&w=600",
+      img: img2,
     },
     {
       title: "Direct Communication",
       description:
         "Communicate directly with suppliers to negotiate terms and build relationships.",
-      img: img2,
+      img: img3,
     },
     {
       title: "Customs Clearance",
       description:
         "Simplify customs clearance with our expert guidance and support.",
-      img: "https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=600",
+      img: img4,
     },
     {
       title: "Shipping Management",
       description:
         "Manage your shipments efficiently with our integrated tracking and logistics tools.",
-      img: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=600",
+      img: img5,
     },
     {
       title: "Documentation Support",
       description:
         "Ensure compliance with trade regulations through our comprehensive documentation services.",
-      img: "https://images.unsplash.com/photo-1590650046871-92c887180603?q=80&w=600",
+      img: img6,
     },
     {
       title: "Shipping Management",
       description:
         "Manage your shipments efficiently with our integrated tracking and logistics tools.",
-      img: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=600",
+      img: img7,
     },
     {
-      title: "Documentation Support",
+      title: "Customs Clearance",
       description:
-        "Ensure compliance with trade regulations through our comprehensive documentation services.",
-      img: "https://images.unsplash.com/photo-1590650046871-92c887180603?q=80&w=600",
+        "Simplify customs clearance with our expert guidance and support.",
+      img: img8,
     },
   ],
   Logistics: [
@@ -129,7 +135,7 @@ export default function ToolsSection() {
           {categories[activeCategory].map((item, idx) => (
             <article
               key={idx}
-              className="bg-white rounded-xl overflow-hidden  hover:shadow-lg transition flex flex-col"
+              className="bg-white rounded-xl overflow-hidden   transition flex flex-col"
             >
               <img
                 src={item.img}
@@ -147,7 +153,7 @@ export default function ToolsSection() {
                 {/* Restored button */}
                 <div className="mt-2">
                   <button
-                    className="bg-[#1DA1F2] text-white px-4 py-2 rounded-full font-poppins text-sm inline-flex items-center gap-2"
+                    className="bg-[#1DA1F2] text-white px-4 py-2 rounded-full font-poppins text-xs font-medium inline-flex items-center gap-2"
                     aria-label={`Use ${item.title}`}
                   >
                     <span>USE TOOL</span>
