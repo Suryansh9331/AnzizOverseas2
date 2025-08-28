@@ -23,7 +23,7 @@ const Logistic = () => {
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold mb-4 md:mb-12">
             <span className="text-white">Smarter Shipping,</span>
             <br />
-            <span className="text-[#E44F39]">Global Reach.</span>
+            <span className="text-[#1DA1F2]">Global Reach.</span>
           </h1>
           
           {/* Description */}
@@ -34,7 +34,7 @@ const Logistic = () => {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             {/* Orange Button with Play Icon */}
-            <button className="bg-[#E44F39] hover:bg-[#d63e2a] text-white px-8 py-4 rounded-full flex items-center gap-3 font-semibold text-lg transition-colors duration-300">
+            <button className="bg-[#1DA1F2] hover:bg-[#d63e2a] text-white px-8 py-4 rounded-full flex items-center gap-3 font-semibold text-lg transition-colors duration-300">
              
               GET A SHIPPING QUOTE
 
@@ -174,12 +174,12 @@ const WhatWeOffer = () => {
                 <ul className="space-y-2 mb-6">
                   {service.features.map((feature, index) => (
                     <li key={index} className="flex items-center text-gray-700">
-                      <span className="text-[#E44F39] mr-2">▶</span>
+                      <span className="text-[#1DA1F2] mr-2">▶</span>
                       {feature}
                     </li>
                   ))}
                 </ul>
-                <button className="bg-[#E44F39] hover:bg-[#d63e2a] text-white px-6 py-2 rounded-full font-medium transition-colors duration-300">
+                <button className="bg-[#1DA1F2] hover:bg-[#d63e2a] text-white px-6 py-2 rounded-full font-medium transition-colors duration-300">
                   READ MORE
                 </button>
               </div>
@@ -197,9 +197,9 @@ const WhatWeOffer = () => {
                 <input
                   type="text"
                   placeholder="Search..."
-                  className="w-full px-4 py-3 pr-12 bg-[#F5E6E0] border-0 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#E44F39] transition-all duration-300"
+                  className="w-full px-4 py-3 pr-12 bg-[#F5E6E0] border-0 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1DA1F2] transition-all duration-300"
                 />
-                <button className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-[#E44F39] text-white p-2 rounded-lg hover:bg-[#d63e2a] transition-colors duration-300">
+                <button className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-[#1DA1F2] text-white p-2 rounded-lg hover:bg-[#d63e2a] transition-colors duration-300">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                   </svg>
@@ -221,12 +221,12 @@ const WhatWeOffer = () => {
                 <ul className="space-y-1 mb-4 text-sm">
                   {service.features.map((feature, index) => (
                     <li key={index} className="flex items-center text-gray-700">
-                      <span className="text-[#E44F39] mr-2">▶</span>
+                      <span className="text-[#1DA1F2] mr-2">▶</span>
                       {feature}
                     </li>
                   ))}
                 </ul>
-                <button className="bg-[#E44F39] hover:bg-[#d63e2a] text-white px-5 py-2 rounded-full text-sm font-medium transition-colors duration-300">
+                <button className="bg-[#1DA1F2] hover:bg-[#d63e2a] text-white px-5 py-2 rounded-full text-sm font-medium transition-colors duration-300">
                   READ MORE
                 </button>
               </div>
@@ -253,7 +253,7 @@ const WhyChooseTradeFlow = () => {
       title: "Comprehensive Insurance",
       description: "We work with a network of trusted and reliable logistics partners.",
       image: Card2Img, // Replace with your actual image
-      bgColor: "bg-[#E44F39]",
+      bgColor: "bg-[#1DA1F2]",
       isCenter: true
     },
     {
@@ -274,7 +274,7 @@ const WhyChooseTradeFlow = () => {
         </h2>
         
         {/* Orange Subheading */}
-        <h3 className="text-3xl md:text-4xl font-bold text-[#E44F39] mb-6">
+        <h3 className="text-3xl md:text-4xl font-bold text-[#1DA1F2] mb-6">
           Trust Factor
         </h3>
         
@@ -332,7 +332,7 @@ const WhyChooseTradeFlow = () => {
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           {/* Orange Button with Play Icon */}
-          <button className="bg-[#E44F39] hover:bg-[#d63e2a] text-white px-8 py-4 rounded-full flex items-center gap-3 font-semibold text-lg transition-colors duration-300">
+          <button className="bg-[#1DA1F2] hover:bg-[#d63e2a] text-white px-8 py-4 rounded-full flex items-center gap-3 font-semibold text-lg transition-colors duration-300">
             <svg 
               className="w-6 h-6" 
               fill="currentColor" 
@@ -437,7 +437,7 @@ const ContactSection = () => {
                                 <button
                                     onClick={handleSubmit}
                                     className="flex items-center px-6 sm:px-8 py-3 sm:py-4 text-white font-medium text-sm sm:text-base rounded-full hover:opacity-90 transition-opacity duration-300"
-                                    style={{ backgroundColor: '#E44F39' }}
+                                    style={{ backgroundColor: '#1DA1F2' }}
                                 >
                                     SEND NOW
                                     <svg
@@ -504,7 +504,7 @@ const ContactSection = () => {
 
                     <button
                         className="flex items-center justify-center mx-auto px-6 sm:px-8 py-3 sm:py-4 text-white font-medium text-sm sm:text-base rounded-full hover:opacity-90 transition-opacity duration-300"
-                        style={{ backgroundColor: '#E44F39' }}
+                        style={{ backgroundColor: '#1DA1F2' }}
                     >
                         <svg
                             className="w-4 h-4 sm:w-5 sm:h-5 mr-3"

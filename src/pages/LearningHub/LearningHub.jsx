@@ -25,7 +25,7 @@ const Learninghub = () => {
             >
               <button
                 className="px-4 sm:px-8 py-3 rounded-xl text-white font-medium text-sm sm:text-base transition-all duration-300 whitespace-nowrap"
-                style={{ backgroundColor: "#E44F39" }}
+                style={{ backgroundColor: "#1DA1F2" }}
               >
                 Documentation
               </button>
@@ -103,7 +103,7 @@ const Learninghub = () => {
           </p>
 
           <div className="mt-6 flex justify-center">
-            <button className="flex items-center gap-2 bg-[#E44F39] text-white px-6 py-3 rounded-full font-light font-['Poppins'] hover:opacity-90 transition">
+            <button className="flex items-center gap-2 bg-[#1DA1F2] text-white px-6 py-3 rounded-full font-light font-['Poppins'] hover:opacity-90 transition">
               <Phone size={18} /> BOOK CALL
             </button>
           </div>

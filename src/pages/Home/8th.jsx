@@ -48,7 +48,7 @@ const FAQSection = () => {
               <div
                 className="h-px w-full"
                 style={{
-                  backgroundImage: `repeating-linear-gradient(to right, #E44F39 0, #E44F39 4px, transparent 4px, transparent 8px)`,
+                  backgroundImage: `repeating-linear-gradient(to right, #1DA1F2 0, #1DA1F2 4px, transparent 4px, transparent 8px)`,
                 }}
               ></div>
             </div>
@@ -56,7 +56,7 @@ const FAQSection = () => {
             {/* Text */}
             <div
               className="px-4 sm:px-6 text-xs sm:text-sm font-medium tracking-wider uppercase"
-              style={{ color: "#E44F39" }}
+              style={{ color: "#1DA1F2" }}
             >
               ASK QUESTION
             </div>
@@ -66,7 +66,7 @@ const FAQSection = () => {
               <div
                 className="h-px w-full"
                 style={{
-                  backgroundImage: `repeating-linear-gradient(to right, #E44F39 0, #E44F39 4px, transparent 4px, transparent 8px)`,
+                  backgroundImage: `repeating-linear-gradient(to right, #1DA1F2 0, #1DA1F2 4px, transparent 4px, transparent 8px)`,
                 }}
               ></div>
             </div>
@@ -102,12 +102,12 @@ const FAQSection = () => {
                   </div>
                   <div
                     className="w-8 h-8 rounded-full border-2 flex items-center justify-center flex-shrink-0 mt-1"
-                    style={{ borderColor: "#E44F39" }}
+                    style={{ borderColor: "#1DA1F2" }}
                   >
                     {activeIndex === index ? (
                       <svg
                         className="w-4 h-4"
-                        style={{ color: "#E44F39" }}
+                        style={{ color: "#1DA1F2" }}
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -122,7 +122,7 @@ const FAQSection = () => {
                     ) : (
                       <svg
                         className="w-4 h-4"
-                        style={{ color: "#E44F39" }}
+                        style={{ color: "#1DA1F2" }}
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -154,7 +154,7 @@ const FAQSection = () => {
             {/* Circular Logo */}
             <div
               className="w-20 h-20 sm:w-24 sm:h-24 rounded-full flex items-center justify-center"
-              style={{ backgroundColor: "#E44F39" }}
+              style={{ backgroundColor: "#1DA1F2" }}
             >
               <svg
                 className="w-10 h-10 sm:w-12 sm:h-12 text-white"

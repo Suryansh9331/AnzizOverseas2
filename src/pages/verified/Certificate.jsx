@@ -27,7 +27,7 @@ const ComplianceCertificates = () => {
                 {cert.name}
               </span>
 
-              <button className="bg-[#E44F39] text-white text-xs md:text-sm px-5 py-1.5 rounded-full font-[Outfit] hover:opacity-90 transition">
+              <button className="bg-[#1DA1F2] text-white text-xs md:text-sm px-5 py-1.5 rounded-full font-[Outfit] hover:opacity-90 transition">
                 VIEW
               </button>
             </div>

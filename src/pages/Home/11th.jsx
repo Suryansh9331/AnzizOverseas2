@@ -97,7 +97,7 @@ export default function ConsultationBooking() {
                     onClick={() => setSelectedDate(date)}
                     className={`py-2 rounded-lg text-center ${
                       isSelected
-                        ? "bg-[#E44F39] text-white"
+                        ? "bg-[#1DA1F2] text-white"
                         : "hover:bg-gray-100"
                     }`}
                   >
@@ -110,7 +110,7 @@ export default function ConsultationBooking() {
             {/* Buttons */}
             <div className="flex justify-between">
               <button className="px-4 py-2 bg-gray-200 rounded-lg">Cancel</button>
-              <button className="px-4 py-2 bg-[#E44F39] text-white rounded-lg">
+              <button className="px-4 py-2 bg-[#1DA1F2] text-white rounded-lg">
                 ✓ Set date
               </button>
             </div>
@@ -139,8 +139,8 @@ export default function ConsultationBooking() {
                 onClick={() => setSelectedTime(t)}
                 className={`px-4 py-2 rounded-lg ${
                   selectedTime === t
-                    ? "bg-[#E44F39] text-white "
-                    : "bg-gray-100  text-[#E44F39] hover:bg-gray-200"
+                    ? "bg-[#1DA1F2] text-white "
+                    : "bg-gray-100  text-[#1DA1F2] hover:bg-gray-200"
                 }`}
               >
                 {t}
@@ -153,7 +153,7 @@ export default function ConsultationBooking() {
         <div className="relative">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center">
-              <Phone className="text-[#E44F39]" />
+              <Phone className="text-[#1DA1F2]" />
             </div>
             <h3 className="text-xl font-[Outfit] font-semibold">
               Book a 1-on-1 Consultation with Mr. Suprans
@@ -202,7 +202,7 @@ export default function ConsultationBooking() {
 
           {/* Chat button (absolute inside section only) */}
           <div className="absolute bottom-0 right-0">
-            <button className="w-12 h-12 bg-[#E44F39] rounded-full flex items-center justify-center shadow-lg">
+            <button className="w-12 h-12 bg-[#1DA1F2] rounded-full flex items-center justify-center shadow-lg">
               <MessageIcon />
             </button>
           </div>

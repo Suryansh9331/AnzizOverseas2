@@ -13,16 +13,16 @@ const TradeStrategiesSection = () => {
             className="w-full h-64 sm:h-80 lg:h-96 object-cover rounded-xl"
           />
 
-          <span className="absolute top-0 left-0 w-12 h-12 border-t-2 border-l-2 border-[#E44F39] rounded-tl-md"></span>
-          <span className="absolute top-0 right-0 w-12 h-12 border-t-2 border-r-2 border-[#E44F39] rounded-tr-md"></span>
-          <span className="absolute bottom-0 left-0 w-12 h-12 border-b-2 border-l-2 border-[#E44F39] rounded-bl-md"></span>
-          <span className="absolute bottom-0 right-0 w-12 h-12 border-b-2 border-r-2 border-[#E44F39] rounded-br-md"></span>
+          <span className="absolute top-0 left-0 w-12 h-12 border-t-2 border-l-2 border-[#1DA1F2] rounded-tl-md"></span>
+          <span className="absolute top-0 right-0 w-12 h-12 border-t-2 border-r-2 border-[#1DA1F2] rounded-tr-md"></span>
+          <span className="absolute bottom-0 left-0 w-12 h-12 border-b-2 border-l-2 border-[#1DA1F2] rounded-bl-md"></span>
+          <span className="absolute bottom-0 right-0 w-12 h-12 border-b-2 border-r-2 border-[#1DA1F2] rounded-br-md"></span>
 
           {/* Play button overlay */}
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="bg-white bg-opacity-80 rounded-full p-5 shadow-md hover:bg-opacity-100 transition cursor-pointer">
               <svg
-                className="w-10 h-10 text-[#E44F39]"
+                className="w-10 h-10 text-[#1DA1F2]"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -50,7 +50,7 @@ const TradeStrategiesSection = () => {
           <div className="flex-shrink-0">
             <button
               className="inline-flex items-center gap-2 px-8 py-3 text-white font-medium rounded-full shadow-md hover:shadow-lg transition-all duration-300"
-              style={{ backgroundColor: "#E44F39" }}
+              style={{ backgroundColor: "#1DA1F2" }}
             >
               START LESSON
               <svg

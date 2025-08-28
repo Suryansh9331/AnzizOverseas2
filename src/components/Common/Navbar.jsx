@@ -29,15 +29,15 @@ export default function Navbar() {
             <Link
               key={link.name}
               to={link.path}
-              className="text-gray-900 text-md font-medium hover:text-[#E44F39] transition"
+              className="text-gray-900 text-md font-medium hover:text-[#1DA1F2] transition"
             >
               {link.name}
             </Link>
           ))}
 
           {/* Icons */}
-          <Search className="w-5 h-5 cursor-pointer hover:text-[#E44F39]" />
-          <Globe className="w-5 h-5 cursor-pointer hover:text-[#E44F39]" />
+          <Search className="w-5 h-5 cursor-pointer hover:text-[#1DA1F2]" />
+          <Globe className="w-5 h-5 cursor-pointer hover:text-[#1DA1F2]" />
 
           {/* Buttons */}
           <Link
@@ -48,7 +48,7 @@ export default function Navbar() {
           </Link>
           <Link
             to="/signup"
-            className="px-6 py-2 bg-[#E44F39] text-white rounded-full text-xs font-medium hover:bg-[#c93f2d] transition"
+            className="px-6 py-2 bg-[#1DA1F2] text-white rounded-full text-xs font-medium hover:bg-[#c93f2d] transition"
           >
             SIGN UP
           </Link>
@@ -73,7 +73,7 @@ export default function Navbar() {
               <Link
                 key={link.name}
                 to={link.path}
-                className="text-gray-900 text-base font-medium hover:text-[#E44F39] transition"
+                className="text-gray-900 text-base font-medium hover:text-[#1DA1F2] transition"
                 onClick={() => setIsOpen(false)}
               >
                 {link.name}
@@ -82,8 +82,8 @@ export default function Navbar() {
 
             {/* Icons */}
             <div className="flex space-x-4">
-              <Search className="w-5 h-5 cursor-pointer hover:text-[#E44F39]" />
-              <Globe className="w-5 h-5 cursor-pointer hover:text-[#E44F39]" />
+              <Search className="w-5 h-5 cursor-pointer hover:text-[#1DA1F2]" />
+              <Globe className="w-5 h-5 cursor-pointer hover:text-[#1DA1F2]" />
             </div>
 
             {/* Buttons */}
@@ -96,7 +96,7 @@ export default function Navbar() {
             </Link>
             <Link
               to="/signup"
-              className="px-5 py-2 bg-[#E44F39] text-white rounded-full text-sm font-medium hover:bg-[#c93f2d] transition"
+              className="px-5 py-2 bg-[#1DA1F2] text-white rounded-full text-sm font-medium hover:bg-[#c93f2d] transition"
               onClick={() => setIsOpen(false)}
             >
               SIGN UP

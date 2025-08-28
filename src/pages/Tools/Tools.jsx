@@ -171,7 +171,7 @@ const Tools = () => {
               {/* Active Tab - Documentation */}
               <button
                 className="px-4 sm:px-8 py-3 rounded-xl text-white font-medium text-sm sm:text-base transition-all duration-300 whitespace-nowrap"
-                style={{ backgroundColor: "#E44F39" }}
+                style={{ backgroundColor: "#1DA1F2" }}
               >
                 Documentation
               </button>
@@ -260,7 +260,7 @@ const Tools = () => {
                 <div className="w-full bg-gray-300 rounded-full h-3">
                   <div
                     className="h-3 rounded-full transition-all duration-1000"
-                    style={{ backgroundColor: "#E44F39", width: "93.3%" }}
+                    style={{ backgroundColor: "#1DA1F2", width: "93.3%" }}
                   ></div>
                 </div>
               </div>
@@ -269,7 +269,7 @@ const Tools = () => {
               <div className="flex justify-center lg:justify-start">
                 <button
                   className="flex items-center px-6 sm:px-8 py-3 sm:py-4 text-white font-medium text-sm sm:text-base rounded-full hover:opacity-90 transition-opacity duration-300"
-                  style={{ backgroundColor: "#E44F39" }}
+                  style={{ backgroundColor: "#1DA1F2" }}
                 >
                   CALL TO EXPERT
                   <svg
@@ -310,7 +310,7 @@ const Tools = () => {
               <div
                 className="h-px w-full"
                 style={{
-                  backgroundImage: `repeating-linear-gradient(to right, #E44F39 0, #E44F39 4px, transparent 4px, transparent 8px)`,
+                  backgroundImage: `repeating-linear-gradient(to right, #1DA1F2 0, #1DA1F2 4px, transparent 4px, transparent 8px)`,
                 }}
               ></div>
             </div>
@@ -318,7 +318,7 @@ const Tools = () => {
             {/* Text */}
             <div
               className="px-4 sm:px-6 text-xs sm:text-sm font-medium tracking-wider uppercase"
-              style={{ color: "#E44F39" }}
+              style={{ color: "#1DA1F2" }}
             >
               SMARTER TRADING STARTS HERE
             </div>
@@ -328,7 +328,7 @@ const Tools = () => {
               <div
                 className="h-px w-full"
                 style={{
-                  backgroundImage: `repeating-linear-gradient(to right, #E44F39 0, #E44F39 4px, transparent 4px, transparent 8px)`,
+                  backgroundImage: `repeating-linear-gradient(to right, #1DA1F2 0, #1DA1F2 4px, transparent 4px, transparent 8px)`,
                 }}
               ></div>
             </div>
@@ -338,7 +338,7 @@ const Tools = () => {
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
             <span className="text-gray-900">Trade Smarter with These</span>
             <br />
-            <span style={{ color: "#E44F39" }}>Essential Tools</span>
+            <span style={{ color: "#1DA1F2" }}>Essential Tools</span>
           </h2>
         </div>
       </div>
@@ -434,7 +434,7 @@ const FAQSection = () => {
               <div
                 className="h-px w-full"
                 style={{
-                  backgroundImage: `repeating-linear-gradient(to right, #E44F39 0, #E44F39 4px, transparent 4px, transparent 8px)`,
+                  backgroundImage: `repeating-linear-gradient(to right, #1DA1F2 0, #1DA1F2 4px, transparent 4px, transparent 8px)`,
                 }}
               ></div>
             </div>
@@ -442,7 +442,7 @@ const FAQSection = () => {
             {/* Text */}
             <div
               className="px-4 sm:px-6 text-xs sm:text-sm font-medium tracking-wider uppercase"
-              style={{ color: "#E44F39" }}
+              style={{ color: "#1DA1F2" }}
             >
               ASK QUESTION
             </div>
@@ -452,7 +452,7 @@ const FAQSection = () => {
               <div
                 className="h-px w-full"
                 style={{
-                  backgroundImage: `repeating-linear-gradient(to right, #E44F39 0, #E44F39 4px, transparent 4px, transparent 8px)`,
+                  backgroundImage: `repeating-linear-gradient(to right, #1DA1F2 0, #1DA1F2 4px, transparent 4px, transparent 8px)`,
                 }}
               ></div>
             </div>
@@ -488,12 +488,12 @@ const FAQSection = () => {
                   </div>
                   <div
                     className="w-8 h-8 rounded-full border-2 flex items-center justify-center flex-shrink-0 mt-1"
-                    style={{ borderColor: "#E44F39" }}
+                    style={{ borderColor: "#1DA1F2" }}
                   >
                     {activeIndex === index ? (
                       <svg
                         className="w-4 h-4"
-                        style={{ color: "#E44F39" }}
+                        style={{ color: "#1DA1F2" }}
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -508,7 +508,7 @@ const FAQSection = () => {
                     ) : (
                       <svg
                         className="w-4 h-4"
-                        style={{ color: "#E44F39" }}
+                        style={{ color: "#1DA1F2" }}
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -540,7 +540,7 @@ const FAQSection = () => {
             {/* Circular Logo */}
             <div
               className="w-20 h-20 sm:w-24 sm:h-24 rounded-full flex items-center justify-center"
-              style={{ backgroundColor: "#E44F39" }}
+              style={{ backgroundColor: "#1DA1F2" }}
             >
               <svg
                 className="w-10 h-10 sm:w-12 sm:h-12 text-white"
@@ -659,7 +659,7 @@ const ContactSection = () => {
                 <button
                   onClick={handleSubmit}
                   className="flex items-center px-6 sm:px-8 py-3 sm:py-4 text-white font-medium text-sm sm:text-base rounded-full hover:opacity-90 transition-opacity duration-300"
-                  style={{ backgroundColor: "#E44F39" }}
+                  style={{ backgroundColor: "#1DA1F2" }}
                 >
                   SEND NOW
                   <svg
@@ -737,7 +737,7 @@ const ContactSection = () => {
 
           <button
             className="flex items-center justify-center mx-auto px-6 sm:px-8 py-3 sm:py-4 text-white font-medium text-sm sm:text-base rounded-full hover:opacity-90 transition-opacity duration-300"
-            style={{ backgroundColor: "#E44F39" }}
+            style={{ backgroundColor: "#1DA1F2" }}
           >
             <svg
               className="w-4 h-4 sm:w-5 sm:h-5 mr-3"

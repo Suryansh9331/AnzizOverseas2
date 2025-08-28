@@ -12,10 +12,10 @@
 //               <div className="flex items-center gap-2 text-gray-600 text-sm font-medium tracking-wide uppercase">
 //                 <div className="flex gap-1 ">
 //                   {[...Array(5)].map((_, i) => (
-//                     <div key={i} className="w-1 h-1 bg-[#E44F39] rounded-full"></div>
+//                     <div key={i} className="w-1 h-1 bg-[#1DA1F2] rounded-full"></div>
 //                   ))}
 //                 </div>
-//                 <span className="text-[#E44F39]">Solving Your Biggest Trade Challenges</span>
+//                 <span className="text-[#1DA1F2]">Solving Your Biggest Trade Challenges</span>
 //               </div>
 //             </div>
 
@@ -109,8 +109,8 @@ function Second() {
           <div className="order-2 lg:order-1">
             {/* Tagline */}
             <div className="mb-6">
-              <p className="flex items-center gap-2 md:text-sm text-xs  font-semibold tracking-wide uppercase text-[#E44F39]">
-                <span className="h-[1px] w-8 bg-[#E44F39]"></span>
+              <p className="flex items-center gap-2 md:text-sm text-xs  font-semibold tracking-wide uppercase text-[#1DA1F2]">
+                <span className="h-[1px] w-8 bg-[#1DA1F2]"></span>
                 Solving Your Biggest Trade Challenges
               </p>
             </div>
@@ -121,7 +121,7 @@ function Second() {
                 We Solve the Problems
                 <br />
                 That Stop Your{" "}
-                <span className="text-[#E44F39]">Imports</span>
+                <span className="text-[#1DA1F2]">Imports</span>
               </h1>
             </div>
 
@@ -131,7 +131,7 @@ function Second() {
               <div className="flex gap-5">
                 <div className="flex-shrink-0">
                   <div className="w-14 h-14 rounded-full bg-white border border-gray-400 flex items-center justify-center">
-                    <Globe className="w-8 h-8 text-[#E44F39]" />
+                    <Globe className="w-8 h-8 text-[#1DA1F2]" />
                   </div>
                 </div>
                 <div>
@@ -149,7 +149,7 @@ function Second() {
               <div className="flex gap-5">
                 <div className="flex-shrink-0">
                   <div className="w-14 h-14 rounded-full bg-white border border-gray-400 flex items-center justify-center">
-                    <Truck className="w-8 h-8 text-[#E44F39]" />
+                    <Truck className="w-8 h-8 text-[#1DA1F2]" />
                   </div>
                 </div>
                 <div>
@@ -167,7 +167,7 @@ function Second() {
               <div className="flex gap-5">
                 <div className="flex-shrink-0">
                   <div className="w-14 h-14 rounded-full bg-white border border-gray-400 flex items-center justify-center">
-                    <CreditCard className="w-8 h-8 text-[#E44F39]" />
+                    <CreditCard className="w-8 h-8 text-[#1DA1F2]" />
                   </div>
                 </div>
                 <div>

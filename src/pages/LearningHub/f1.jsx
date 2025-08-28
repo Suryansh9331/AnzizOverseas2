@@ -20,7 +20,7 @@ const FeaturedVideoSection = () => {
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="bg-white bg-opacity-90 rounded-full p-4 lg:p-6 shadow-lg hover:bg-opacity-100 transition-all duration-300 cursor-pointer">
               <svg
-                className="w-10 h-10 lg:w-12 lg:h-12 text-[#E44F39]"
+                className="w-10 h-10 lg:w-12 lg:h-12 text-[#1DA1F2]"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -43,7 +43,7 @@ const FeaturedVideoSection = () => {
           <div className="text-right">
             <button
               className="inline-flex items-center gap-2 px-6 py-3 text-white font-medium rounded-full shadow-lg transition-all duration-300"
-              style={{ backgroundColor: "#E44F39" }}
+              style={{ backgroundColor: "#1DA1F2" }}
             >
               WATCH NOW
               <svg

@@ -52,7 +52,7 @@ export default function LearningSection() {
 
       {/* Category Bar */}
       <div className="flex flex-wrap items-center justify-center gap-4 bg-[#FDE0C0] rounded-xl px-6 py-3 w-fit mx-auto mb-10">
-        <button className="px-6 py-2 rounded-lg bg-[#E44F39] text-white font-medium">
+        <button className="px-6 py-2 rounded-lg bg-[#1DA1F2] text-white font-medium">
           View All
         </button>
         <button className="px-4 py-2 rounded-lg text-[#232323] font-medium hover:bg-white transition">
@@ -81,7 +81,7 @@ export default function LearningSection() {
                 <div className="bg-white/80 w-12 h-12 rounded-full flex items-center justify-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    fill="#E44F39"
+                    fill="#1DA1F2"
                     viewBox="0 0 24 24"
                     className="w-6 h-6"
                   >
@@ -128,7 +128,7 @@ export default function LearningSection() {
                     d="M55.7071 20.7071C56.0976 20.3166 56.0976 19.6834 55.7071 19.2929L49.3431 12.9289C48.9526 12.5384 48.3195 12.5384 47.9289 12.9289C47.5384 13.3195 47.5384 13.9526 47.9289 14.3431L53.5858 20L47.9289 25.6568C47.5384 26.0474 47.5384 26.6805 47.9289 27.0711C48.3195 27.4616 48.9526 27.4616 49.3431 27.0711L55.7071 20.7071ZM0 20L8.74228e-08 21L55 21L55 20L55 19L-8.74228e-08 19L0 20Z"
                     fill="#232323"
                   />
-                  <circle cx="51" cy="20" r="19.5" stroke="#E44F39" />
+                  <circle cx="51" cy="20" r="19.5" stroke="#1DA1F2" />
                 </svg>
               </span>
             </button>

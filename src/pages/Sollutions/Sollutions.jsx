@@ -123,7 +123,7 @@ const ShippingSection = () => {
             <div
               className="h-px w-full"
               style={{
-                backgroundImage: `repeating-linear-gradient(to right, #E44F39 0, #E44F39 4px, transparent 4px, transparent 8px)`
+                backgroundImage: `repeating-linear-gradient(to right, #1DA1F2 0, #1DA1F2 4px, transparent 4px, transparent 8px)`
               }}
             ></div>
           </div>
@@ -131,7 +131,7 @@ const ShippingSection = () => {
           {/* Text */}
           <div
             className="px-6 text-sm lg:text-base font-medium tracking-wider uppercase"
-            style={{ color: '#E44F39' }}
+            style={{ color: '#1DA1F2' }}
           >
             Faster, Hassle-Free Global Shipping
           </div>
@@ -141,7 +141,7 @@ const ShippingSection = () => {
             <div
               className="h-px w-full"
               style={{
-                backgroundImage: `repeating-linear-gradient(to right, #E44F39 0, #E44F39 4px, transparent 4px, transparent 8px)`
+                backgroundImage: `repeating-linear-gradient(to right, #1DA1F2 0, #1DA1F2 4px, transparent 4px, transparent 8px)`
               }}
             ></div>
           </div>
@@ -151,7 +151,7 @@ const ShippingSection = () => {
         <div className="text-center mb-12 lg:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
             Get Your Goods Across<br />
-            Borders Without <span className="text-[#E44F39]">Delays</span>
+            Borders Without <span className="text-[#1DA1F2]">Delays</span>
           </h2>
         </div>
 
@@ -166,7 +166,7 @@ const ShippingSection = () => {
             {/* Play button overlay */}
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="bg-white bg-opacity-90 rounded-full p-4 lg:p-6 shadow-lg hover:bg-opacity-100 transition-all duration-300 cursor-pointer">
-                <svg className="w-8 h-8 lg:w-12 lg:h-12 text-[#E44F39]" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="w-8 h-8 lg:w-12 lg:h-12 text-[#1DA1F2]" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M8 5v14l11-7z"/>
                 </svg>
               </div>
@@ -192,7 +192,7 @@ const ShippingSection = () => {
             
             {/* Call to Expert Button */}
             <button className="inline-flex items-center gap-3 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-full font-medium transition-all duration-300 group"
-            style={{ backgroundColor: '#E44F39' }}>
+            style={{ backgroundColor: '#1DA1F2' }}>
               <Phone className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" />
               <span>CALL TO EXPERT</span>
             </button>
@@ -265,13 +265,13 @@ const ServicesGridSection = () => {
                   {/* Orange accent line */}
                   <div 
                     className="absolute top-0 left-0 w-1 h-full"
-                    style={{ backgroundColor: '#E44F39' }}
+                    style={{ backgroundColor: '#1DA1F2' }}
                   ></div>
                   
                   {/* Orange corner accent */}
                   <div 
                     className="absolute top-0 right-0 w-16 h-16 rounded-bl-2xl"
-                    style={{ backgroundColor: '#E44F39' }}
+                    style={{ backgroundColor: '#1DA1F2' }}
                   ></div>
                 </div>
               </div>
@@ -289,7 +289,7 @@ const ServicesGridSection = () => {
                 {/* Call to Expert Button */}
                 <button 
                   className="inline-flex items-center gap-3 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-full font-medium transition-all duration-300 group/btn hover:shadow-lg transform hover:-translate-y-1"
-                  style={{ backgroundColor: '#E44F39' }}
+                  style={{ backgroundColor: '#1DA1F2' }}
                 >
                   <Phone className="w-5 h-5 group-hover/btn:rotate-12 transition-transform duration-300" />
                   <span>CALL TO EXPERT</span>
@@ -321,7 +321,7 @@ const LostOrDamageSection = () => {
             {/* Play button overlay */}
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="bg-white bg-opacity-90 rounded-full p-4 lg:p-6 shadow-lg hover:bg-opacity-100 transition-all duration-300 cursor-pointer">
-                <svg className="w-8 h-8 lg:w-12 lg:h-12 text-[#E44F39]" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="w-8 h-8 lg:w-12 lg:h-12 text-[#1DA1F2]" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M8 5v14l11-7z"/>
                 </svg>
               </div>
@@ -347,7 +347,7 @@ const LostOrDamageSection = () => {
             
             {/* Call to Expert Button */}
             <button className="inline-flex items-center gap-3 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-full font-medium transition-all duration-300 group"
-            style={{ backgroundColor: '#E44F39' }}>
+            style={{ backgroundColor: '#1DA1F2' }}>
               <Phone className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" />
               <span>CALL TO EXPERT</span>
             </button>
@@ -390,7 +390,7 @@ const StreamlineSupplyChain = () => {
                 <div
                   className="h-px w-full"
                   style={{
-                    backgroundImage: `repeating-linear-gradient(to right, #E44F39 0, #E44F39 4px, transparent 4px, transparent 8px)`
+                    backgroundImage: `repeating-linear-gradient(to right, #1DA1F2 0, #1DA1F2 4px, transparent 4px, transparent 8px)`
                   }}
                 ></div>
               </div>
@@ -398,7 +398,7 @@ const StreamlineSupplyChain = () => {
               {/* Text */}
               <div
                 className="ml-6 text-sm lg:text-base font-medium tracking-wider uppercase"
-                style={{ color: '#E44F39' }}
+                style={{ color: '#1DA1F2' }}
               >
                 Logistics Solutions
               </div>
@@ -416,7 +416,7 @@ const StreamlineSupplyChain = () => {
                 <div key={index} className="flex items-center gap-3">
                   <div 
                     className="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0"
-                    style={{ backgroundColor: '#E44F39' }}
+                    style={{ backgroundColor: '#1DA1F2' }}
                   >
                     <Check className="w-3 h-3 text-white" />
                   </div>
@@ -435,9 +435,9 @@ const StreamlineSupplyChain = () => {
             {/* Book Call Button */}
             <button 
               className="inline-flex items-center gap-3 text-white px-8 py-4 lg:px-10 lg:py-5 rounded-full font-medium text-base lg:text-lg transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1"
-              style={{ backgroundColor: '#E44F39' }}
+              style={{ backgroundColor: '#1DA1F2' }}
               onMouseEnter={(e) => e.target.style.backgroundColor = '#d63384'}
-              onMouseLeave={(e) => e.target.style.backgroundColor = '#E44F39'}
+              onMouseLeave={(e) => e.target.style.backgroundColor = '#1DA1F2'}
             >
               <Phone className="w-5 h-5 lg:w-6 lg:h-6" />
               <span>BOOK CALL</span>
@@ -517,13 +517,13 @@ const GlobalTradeSection = () => {
             <div key={index} className="text-center">
               <div 
                 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-2"
-                style={{ color: '#E44F39' }}
+                style={{ color: '#1DA1F2' }}
               >
                 {stat.number}
               </div>
               <div 
                 className="text-base lg:text-lg font-medium"
-                style={{ color: '#E44F39' }}
+                style={{ color: '#1DA1F2' }}
               >
                 {stat.label}
               </div>
@@ -539,7 +539,7 @@ const GlobalTradeSection = () => {
           
           <button 
             className="inline-flex items-center gap-3 text-white px-8 py-4 lg:px-10 lg:py-5 rounded-full font-medium text-base lg:text-lg transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1"
-            style={{ backgroundColor: '#E44F39' }}
+            style={{ backgroundColor: '#1DA1F2' }}
           >
             <Phone className="w-5 h-5 lg:w-6 lg:h-6" />
             <span>BOOK CALL</span>

@@ -87,8 +87,8 @@ export default function ToolsSection() {
               aria-pressed={activeCategory === cat}
               className={`px-2 py-2 rounded-md font-poppins transition text-sm md:text-base whitespace-nowrap ${
                 activeCategory === cat
-                  ? "bg-[#E44F39] text-white font-medium shadow-sm"
-                  : "bg-transparent text-black hover:text-[#E44F39]"
+                  ? "bg-[#1DA1F2] text-white font-medium shadow-sm"
+                  : "bg-transparent text-black hover:text-[#1DA1F2]"
               }`}
             >
               {cat}
@@ -134,7 +134,7 @@ export default function ToolsSection() {
                 {/* Restored button */}
                 <div className="mt-2">
                   <button
-                    className="bg-[#E44F39] text-white px-4 py-2 rounded-full font-poppins text-sm inline-flex items-center gap-2"
+                    className="bg-[#1DA1F2] text-white px-4 py-2 rounded-full font-poppins text-sm inline-flex items-center gap-2"
                     aria-label={`Use ${item.title}`}
                   >
                     <span>USE TOOL</span>

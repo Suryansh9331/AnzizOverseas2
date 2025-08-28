@@ -13,7 +13,7 @@ export default function Hero() {
                     <div className="max-w-3xl">
                         <h1 className="text-6xl lg:text-8xl font-bold mb-6">
                             <div className="text-white mb-3">Verified Exporter</div>
-                            <div className="text-[#E44F39]">Showroom</div>
+                            <div className="text-[#1DA1F2]">Showroom</div>
                         </h1>
                         
                         <p className="text-white text-xl lg:text-2xl mb-10 leading-relaxed max-w-xl">
@@ -21,7 +21,7 @@ export default function Hero() {
                             globe — ready to ship quality products directly to you.
                         </p>
                         
-                        <button className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full hover:bg-[#E44F39] hover:text-white transition-all duration-300 flex items-center gap-3 group"
+                        <button className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full hover:bg-[#1DA1F2] hover:text-white transition-all duration-300 flex items-center gap-3 group"
                           onClick={() =>
                     window.scrollBy({
                       top: window.innerHeight,

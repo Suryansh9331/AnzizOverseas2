@@ -22,7 +22,7 @@
 //               cy="579.676"
 //               rx="577.059"
 //               ry="579.676"
-//               fill="#E44F39"
+//               fill="#1DA1F2"
 //             />
 //           </g>
 //           <defs>
@@ -42,7 +42,7 @@
 //           {/* Heading */}
 //           <h1 className="font-outfit text-3xl md:text-4xl lg:text-3xl xl:text-[52px] font-bold leading-tight text-black max-w-4xl">
 //             SOLVE ANY GLOBE TRADE PROBLEMS –{" "}
-//             <span className="text-[#E44F39]">INSTANTLY.</span>
+//             <span className="text-[#1DA1F2]">INSTANTLY.</span>
 //           </h1>
 
 //           <div className="flex flex-col lg:flex-row gap-6 lg:gap-10">
@@ -72,7 +72,7 @@
 //                       cx="67.3626"
 //                       cy="26.1705"
 //                       r="25.5162"
-//                       stroke="#E44F39"
+//                       stroke="#1DA1F2"
 //                       strokeWidth="1.5"
 //                     />
 //                   </svg>
@@ -97,7 +97,7 @@
 //                 />
 
 //                 <button
-//                   className="absolute -bottom-1  -right-2 bg-[#E44F39] hover:bg-[#c63b2a] transition text-white text-xs font-semibold px-4 py-3 rounded-full shadow-md"
+//                   className="absolute -bottom-1  -right-2 bg-[#1DA1F2] hover:bg-[#c63b2a] transition text-white text-xs font-semibold px-4 py-3 rounded-full shadow-md"
 //                   onClick={() =>
 //                     window.scrollBy({
 //                       top: window.innerHeight,

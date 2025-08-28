@@ -25,13 +25,13 @@ export default function TestimonialSection() {
   return (
     <section className="w-full bg-white py-20 px-4 font-poppins">
       <div className="max-w-6xl mx-auto text-center">
-        <p className="text-[#E44F39] text-sm font-medium tracking-wider uppercase mb-2">
+        <p className="text-[#1DA1F2] text-sm font-medium tracking-wider uppercase mb-2">
           ------ Client Testimonial ------
         </p>
 
         <h2 className="font-outfit text-4xl md:text-5xl font-bold mb-12">
           Excellence in Every Pixel <br />
-          Where <span className="text-[#E44F39]">Ideas</span>
+          Where <span className="text-[#1DA1F2]">Ideas</span>
         </h2>
 
         {/* Swiper Carousel */}
@@ -56,10 +56,10 @@ export default function TestimonialSection() {
                   <p className="text-sm text-gray-500 mb-3">{t.role}</p>
                   <p className="text-gray-700 mb-6">{t.text}</p>
                   <div className="flex justify-between items-center">
-                    <Quote className="text-[#E44F39]" />
-                    <div className="flex gap-1 text-[#E44F39]">
+                    <Quote className="text-[#1DA1F2]" />
+                    <div className="flex gap-1 text-[#1DA1F2]">
                       {[...Array(5)].map((_, idx) => (
-                        <Star key={idx} size={16} fill="#E44F39" stroke="none" />
+                        <Star key={idx} size={16} fill="#1DA1F2" stroke="none" />
                       ))}
                     </div>
                   </div>

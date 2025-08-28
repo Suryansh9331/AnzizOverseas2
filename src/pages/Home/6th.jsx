@@ -23,7 +23,7 @@ const StreamlineSupplyChain = () => {
                 <div
                   className="h-px w-full"
                   style={{
-                    backgroundImage: `repeating-linear-gradient(to right, #E44F39 0, #E44F39 4px, transparent 4px, transparent 8px)`
+                    backgroundImage: `repeating-linear-gradient(to right, #1DA1F2 0, #1DA1F2 4px, transparent 4px, transparent 8px)`
                   }}
                 ></div>
               </div>
@@ -31,7 +31,7 @@ const StreamlineSupplyChain = () => {
               {/* Text */}
               <div
                 className="ml-6 text-sm lg:text-base font-medium tracking-wider uppercase"
-                style={{ color: '#E44F39' }}
+                style={{ color: '#1DA1F2' }}
               >
                 Logistics Solutions
               </div>
@@ -49,7 +49,7 @@ const StreamlineSupplyChain = () => {
                 <div key={index} className="flex items-center gap-3">
                   <div 
                     className="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0"
-                    style={{ backgroundColor: '#E44F39' }}
+                    style={{ backgroundColor: '#1DA1F2' }}
                   >
                     <Check className="w-3 h-3 text-white" />
                   </div>
@@ -68,9 +68,9 @@ const StreamlineSupplyChain = () => {
             {/* Book Call Button */}
             <button 
               className="inline-flex items-center gap-3 text-white px-8 py-4 lg:px-10 lg:py-5 rounded-full font-medium text-base lg:text-lg transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1"
-              style={{ backgroundColor: '#E44F39' }}
+              style={{ backgroundColor: '#1DA1F2' }}
               onMouseEnter={(e) => e.target.style.backgroundColor = '#d63384'}
-              onMouseLeave={(e) => e.target.style.backgroundColor = '#E44F39'}
+              onMouseLeave={(e) => e.target.style.backgroundColor = '#1DA1F2'}
             >
               <Phone className="w-5 h-5 lg:w-6 lg:h-6" />
               <span>BOOK CALL</span>

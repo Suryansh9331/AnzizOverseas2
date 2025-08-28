@@ -77,7 +77,7 @@ const LearningResources = () => {
                   onClick={() => setActiveFilter(category.id)}
                   className={`w-full text-left py-2 px-4 rounded-md transition-colors ${
                     activeFilter === category.id 
-                      ? 'bg-[#E44F39] text-white' 
+                      ? 'bg-[#1DA1F2] text-white' 
                       : 'bg-white text-gray-700 hover:bg-gray-100'
                   }`}
                 >
@@ -100,7 +100,7 @@ const LearningResources = () => {
                   <p className="font-poppins text-gray-600 mb-4">
                     {resource.description}
                   </p>
-                  <button className="font-poppins text-[#E44F39] font-medium hover:underline">
+                  <button className="font-poppins text-[#1DA1F2] font-medium hover:underline">
                     Read more
                   </button>
                 </div>

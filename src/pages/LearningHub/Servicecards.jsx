@@ -70,10 +70,10 @@ const ServicesGridSection = () => {
                 />
 
                 {/* Orange corner lines */}
-                <span className="absolute top-0 left-0 w-10 h-10 border-t-2 border-l-2 border-[#E44F39] rounded-tl-md"></span>
-                <span className="absolute top-0 right-0 w-10 h-10 border-t-2 border-r-2 border-[#E44F39] rounded-tr-md"></span>
-                <span className="absolute bottom-0 left-0 w-10 h-10 border-b-2 border-l-2 border-[#E44F39] rounded-bl-md"></span>
-                <span className="absolute bottom-0 right-0 w-10 h-10 border-b-2 border-r-2 border-[#E44F39] rounded-br-md"></span>
+                <span className="absolute top-0 left-0 w-10 h-10 border-t-2 border-l-2 border-[#1DA1F2] rounded-tl-md"></span>
+                <span className="absolute top-0 right-0 w-10 h-10 border-t-2 border-r-2 border-[#1DA1F2] rounded-tr-md"></span>
+                <span className="absolute bottom-0 left-0 w-10 h-10 border-b-2 border-l-2 border-[#1DA1F2] rounded-bl-md"></span>
+                <span className="absolute bottom-0 right-0 w-10 h-10 border-b-2 border-r-2 border-[#1DA1F2] rounded-br-md"></span>
               </div>
 
               {/* Content */}
@@ -88,7 +88,7 @@ const ServicesGridSection = () => {
               <div>
                 <button
                   className="inline-flex items-center gap-2 px-6 py-3 text-white font-medium rounded-full shadow-md hover:shadow-lg transition-all duration-300"
-                  style={{ backgroundColor: "#E44F39" }}
+                  style={{ backgroundColor: "#1DA1F2" }}
                 >
                   {service.button}
                   <svg

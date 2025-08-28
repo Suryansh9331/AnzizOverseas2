@@ -155,7 +155,7 @@ const SupplierSection = () => {
         <button className="flex uppercase items-center gap-2 px-5 py-2 rounded-full text-white bg-black font-poppins text-sm">
           <MessageSquare size={16} /> Message Supplier
         </button>
-        <button className="flex uppercase items-center gap-2 px-5 py-2 rounded-full text-white bg-[#E44F39] font-poppins text-sm">
+        <button className="flex uppercase items-center gap-2 px-5 py-2 rounded-full text-white bg-[#1DA1F2] font-poppins text-sm">
           <Phone size={16} /> Book Call
         </button>
       </div>
