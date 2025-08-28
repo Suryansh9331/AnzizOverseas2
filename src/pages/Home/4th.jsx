@@ -1,8 +1,8 @@
 import React from "react";
 import { MapPin, FileText } from "lucide-react"; // icons
-import Img6 from "../../assets/Learninghub/image6.png"; 
-import Img7 from "../../assets/Learninghub/image7.png"; 
-import Img8 from "../../assets/Learninghub/image8.png"; 
+import Img6 from "../../assets/Home/c1.png"; 
+import Img7 from "../../assets/Home/c2.png"; 
+import Img8 from "../../assets/Home/c3.png"; 
 
 
 
@@ -75,13 +75,13 @@ export default function LearningSection() {
               <img
                 src={course.img}
                 alt={course.title}
-                className="w-full h-56 object-cover"
+                className="w-full h-66 object-cover"
               />
               <button className="absolute inset-0 flex items-center justify-center">
-                <div className="bg-white/80 w-12 h-12 rounded-full flex items-center justify-center">
+                <div className="bg-[#033651] w-12 h-12 rounded-full flex items-center justify-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    fill="#1DA1F2"
+                    fill="white"
                     viewBox="0 0 24 24"
                     className="w-6 h-6"
                   >
@@ -92,7 +92,7 @@ export default function LearningSection() {
             </div>
 
             {/* Text content */}
-            <h3 className="font-semibold text-3xl text-[#232323] mt-4 mb-3">
+            <h3 className="font-[outfit] font-semibold text-3xl text-gray-900 mt-4 mb-3">
               {course.title}
             </h3>
 
