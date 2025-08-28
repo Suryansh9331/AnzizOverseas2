@@ -67,7 +67,7 @@ const LearningResources = () => {
       <div className="flex flex-col lg:flex-row gap-8">
         {/* Category Filter Box */}
         <div className="w-full lg:w-1/4">
-          <div className="bg-[#FDE0C0] rounded-lg p-6 shadow-md">
+          <div className="bg-[#B9E2FB] rounded-lg p-6 shadow-md">
             <h2 className="font-outfit text-xl font-semibold text-gray-800 mb-4">Category Filters</h2>
             
             <div className="space-y-2">

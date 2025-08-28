@@ -166,7 +166,7 @@ const Tools = () => {
           <div className="overflow-x-auto">
             <div
               className="rounded-xl p-3 px-6 sm:px-12 flex items-center gap-2 sm:gap-4 min-w-max sm:max-w-2xl"
-              style={{ backgroundColor: "#FDE0C0" }}
+              style={{ backgroundColor: "#B9E2FB" }}
             >
               {/* Active Tab - Documentation */}
               <button

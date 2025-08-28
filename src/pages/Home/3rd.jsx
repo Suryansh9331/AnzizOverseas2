@@ -79,7 +79,7 @@ export default function ToolsSection() {
           Smart Tools Built for Global Buyers
         </h2>
 
-        <div className="inline-flex flex-wrap items-center gap-2 bg-[#FDE0C0] rounded-lg px-3 py-2 mb-8 mx-auto lg:mx-0">
+        <div className="inline-flex flex-wrap items-center gap-2 bg-[#B9E2FB] rounded-lg px-3 py-2 mb-8 mx-auto lg:mx-0">
           {Object.keys(categories).map((cat) => (
             <button
               key={cat}
@@ -124,10 +124,10 @@ export default function ToolsSection() {
                 className="w-full h-44 md:h-54 lg:h-72 object-cover rounded-xl"
               />
               <div className="p-5 flex flex-col flex-1">
-                <h3 className="font-outfit text-xl font-bold mb-2">
+                <h3 className="font-outfit text-2xl font-bold mb-2">
                   {item.title}
                 </h3>
-                <p className="font-poppins text-sm text-gray-600 mb-4 flex-grow">
+                <p className="font-poppins text-md text-[#7B7B7B] mb-4 font-medium flex-grow">
                   {item.description}
                 </p>
 

@@ -51,7 +51,7 @@ export default function LearningSection() {
       </div>
 
       {/* Category Bar */}
-      <div className="flex flex-wrap items-center justify-center gap-4 bg-[#FDE0C0] rounded-xl px-6 py-3 w-fit mx-auto mb-10">
+      <div className="flex flex-wrap items-center justify-center gap-4 bg-[#B9E2FB] rounded-xl px-6 py-3 w-fit mx-auto mb-10">
         <button className="px-6 py-2 rounded-lg bg-[#1DA1F2] text-white font-medium">
           View All
         </button>

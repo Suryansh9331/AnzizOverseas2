@@ -79,7 +79,7 @@ const SupplierSection = () => {
       </h2>
 
       {/* Filter Box */}
-      <div className="inline-flex flex-wrap gap-4 bg-[#FDE0C0] p-3 rounded-md mb-10">
+      <div className="inline-flex flex-wrap gap-4 bg-[#B9E2FB] p-3 rounded-md mb-10">
         {/* Country */}
         <select
           value={selectedCountry}
