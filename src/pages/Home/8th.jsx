@@ -185,11 +185,21 @@ const FAQSection = () => {
             {/* Contact Us Button */}
             <button className="flex items-center text-gray-900 font-medium hover:text-gray-700 transition-colors group text-sm sm:text-base">
               CONTACT US
-              <img
-                src={ContactBtnImg}
-                alt="Contact icon"
-                className="w-12 sm:w-16 h-8 sm:h-10 rounded-lg ml-4"
-              />
+             <span className=" ml-4 w-[71px] h-[40px]">
+                <svg
+                  width="71"
+                  height="40"
+                  viewBox="0 0 71 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M55.7071 20.7071C56.0976 20.3166 56.0976 19.6834 55.7071 19.2929L49.3431 12.9289C48.9526 12.5384 48.3195 12.5384 47.9289 12.9289C47.5384 13.3195 47.5384 13.9526 47.9289 14.3431L53.5858 20L47.9289 25.6568C47.5384 26.0474 47.5384 26.6805 47.9289 27.0711C48.3195 27.4616 48.9526 27.4616 49.3431 27.0711L55.7071 20.7071ZM0 20L8.74228e-08 21L55 21L55 20L55 19L-8.74228e-08 19L0 20Z"
+                    fill="#232323"
+                  />
+                  <circle cx="51" cy="20" r="19.5" stroke="#1DA1F2" />
+                </svg>
+              </span>
             </button>
           </div>
         </div>

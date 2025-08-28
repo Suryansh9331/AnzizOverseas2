@@ -4,7 +4,6 @@ import SupplierSection from "./5th";
 import FourthSectiion from "./4th";
 import Hero from "./Hero";
 import Second from "./2nd";
-import BrandSection from "./7th";
 import { Phone } from "lucide-react";
 import Sixth from "./6th";
 import ConsultationBooking from "./11th";
@@ -21,7 +20,6 @@ function Home() {
       <FourthSectiion />
       <SupplierSection />
       <Sixth />
-      <BrandSection />
       <FAQ />
 <GlobalTradeSection/>
     
