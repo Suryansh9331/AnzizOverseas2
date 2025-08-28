@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-
+import img1 from "../../assets/Home/p1.png"
+import img2 from "../../assets/Home/p2.png"
 const categories = {
   Documentation: [
     {
       title: "Supplier Discovery",
       description:
         "Easily search and filter suppliers based on your specific requirements and industry.",
-      img: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=600",
+      img: img1,
     },
     {
       title: "Product Catalog",
@@ -19,13 +20,25 @@ const categories = {
       title: "Direct Communication",
       description:
         "Communicate directly with suppliers to negotiate terms and build relationships.",
-      img: "https://images.unsplash.com/photo-1590650046871-92c887180603?q=80&w=600",
+      img: img2,
     },
     {
       title: "Customs Clearance",
       description:
         "Simplify customs clearance with our expert guidance and support.",
       img: "https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=600",
+    },
+    {
+      title: "Shipping Management",
+      description:
+        "Manage your shipments efficiently with our integrated tracking and logistics tools.",
+      img: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=600",
+    },
+    {
+      title: "Documentation Support",
+      description:
+        "Ensure compliance with trade regulations through our comprehensive documentation services.",
+      img: "https://images.unsplash.com/photo-1590650046871-92c887180603?q=80&w=600",
     },
     {
       title: "Shipping Management",
@@ -121,7 +134,7 @@ export default function ToolsSection() {
               <img
                 src={item.img}
                 alt={item.title}
-                className="w-full h-44 md:h-54 lg:h-72 object-cover rounded-xl"
+                className="w-full h-44 md:h-54 lg:h-72 object-fill rounded-xl"
               />
               <div className="p-5 flex flex-col flex-1">
                 <h3 className="font-outfit text-2xl font-bold mb-2">

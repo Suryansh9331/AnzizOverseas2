@@ -143,19 +143,33 @@ const HeroSection = () => {
           </p>
 
           {/* Buttons */}
-          <div className="mt-8 flex flex-col sm:flex-row items-center gap-5 justify-center md:justify-start">
+          <div className="mt-16 flex flex-col sm:flex-row items-center gap-8 justify-center md:justify-start">
             <Link
               to="/get-started"
               className="flex items-center gap-2 font-medium text-black border-b-2 border-transparent hover:border-black transition-all text-lg"
             >
               GET STARTED FREE
               {/* Replace with your own custom arrow icon */}
-              <ArrowRight className="w-5 h-5" />
+               <span className="w-[71px] h-[40px]">
+                <svg
+                  width="71"
+                  height="40"
+                  viewBox="0 0 71 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M55.7071 20.7071C56.0976 20.3166 56.0976 19.6834 55.7071 19.2929L49.3431 12.9289C48.9526 12.5384 48.3195 12.5384 47.9289 12.9289C47.5384 13.3195 47.5384 13.9526 47.9289 14.3431L53.5858 20L47.9289 25.6568C47.5384 26.0474 47.5384 26.6805 47.9289 27.0711C48.3195 27.4616 48.9526 27.4616 49.3431 27.0711L55.7071 20.7071ZM0 20L8.74228e-08 21L55 21L55 20L55 19L-8.74228e-08 19L0 20Z"
+                    fill="#232323"
+                  />
+                  <circle cx="51" cy="20" r="19.5" stroke="#1DA1F2" />
+                </svg>
+              </span>
             </Link>
 
             <Link
               to="/how-it-works"
-              className="px-6 py-3 rounded-full bg-[#1DA1F2] text-white font-medium shadow hover:opacity-90 transition text-lg"
+              className="px-6 py-3 rounded-full bg-[#1DA1F2] text-white font-medium shadow hover:opacity-90 transition text-md flex items-center gap-2"
             >
               EXPLORE HOW IT WORKS
             </Link>
