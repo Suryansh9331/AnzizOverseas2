@@ -141,21 +141,21 @@ const SupplierSection = () => {
               />
             </div>
             <h3 className="font-semibold mt-3 text-black">{supplier.name}</h3>
-            <p className="text-[#A16E45]">{supplier.country}</p>
-            <p className="text-gray-600 text-sm">{supplier.badge}</p>
+            <p className="text-[#25136D]">{supplier.country}</p>
+            <p className="text-[#25136D] ">{supplier.badge}</p>
           </div>
         ))}
       </div>
 
       {/* Action Buttons */}
       <div className="flex flex-wrap gap-8 mt-14   mb-10 justify-center">
-        <button className="flex uppercase items-center gap-2 px-5 py-2 rounded-full text-white bg-[#665957] font-poppins text-sm">
+        <button className="flex uppercase items-center gap-2 px-6 py-3 rounded-full text-white bg-[#665957] font-poppins text-xs font-medium ">
           <BookOpen size={16} /> Request Sample
         </button>
-        <button className="flex uppercase items-center gap-2 px-5 py-2 rounded-full text-white bg-black font-poppins text-sm">
+        <button className="flex uppercase items-center gap-2 px-5 py-2 rounded-full text-white bg-black font-poppins text-xs font-medium ">
           <MessageSquare size={16} /> Message Supplier
         </button>
-        <button className="flex uppercase items-center gap-2 px-5 py-2 rounded-full text-white bg-[#1DA1F2] font-poppins text-sm">
+        <button className="flex uppercase items-center gap-2 px-5 py-2 rounded-full text-white bg-[#1DA1F2] font-poppins text-xs font-medium">
           <Phone size={16} /> Book Call
         </button>
       </div>
