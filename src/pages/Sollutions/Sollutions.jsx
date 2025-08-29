@@ -44,7 +44,7 @@ const Sollutions = () => {
                             <span className="md:text-6xl text-3xl lg:text-7xl font-bold text-white">
                                 PROBLEMS
                             </span>
-                            <span className="md:text-6xl text-3xl lg:text-7xl  font-thin text-orange-600">
+                            <span className="md:text-6xl text-3xl lg:text-7xl  font-thin text-[#1DA1F2]">
                                 THAT STOP
                             </span>
                         </div>
@@ -70,7 +70,7 @@ const Sollutions = () => {
                         </button>
                         
                         {/* Watch Video Button */}
-                        <button className="flex items-center gap-3 bg-orange-600 text-white px-8 py-4 rounded-full hover:bg-orange-700 transition-all duration-300 group">
+                        <button className="flex items-center gap-3 bg-[#1DA1F2] text-white px-8 py-4 rounded-full hover:bg-orange-700 transition-all duration-300 group">
                             <span className="font-medium">WATCH VIDEO</span>
                             <Play className="w-5 h-5 fill-current group-hover:scale-110 transition-transform duration-300" />
                         </button>
