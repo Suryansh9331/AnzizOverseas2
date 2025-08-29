@@ -124,26 +124,26 @@ import  vid from "../../assets/videos/hero.mp4"
 
 const HeroSection = () => {
   return (
-    <section className="bg-white py-20 px-6 md:px-12">
-      <div className=" mx-auto flex flex-col md:flex-row items-center gap-8">
+    <section className="bg-white lg:py-20 py-8 px-6 lg:px-16">
+      <div className=" mx-auto flex flex-col-reverse lg:flex-row items-center gap-0">
         
         {/* Left Section */}
-        <div className="flex-1 text-center md:text-left">
+        <div className="flex-1 text-center lg:text-left">
           {/* Main Heading */}
-          <h1 className="font-[Outfit] text-4xl md:text-7xl font-bold leading-tight">
+          <h1 className="font-[Outfit] text-4xl md:text-6xl font-bold leading-tight">
             SOLVE ANY GLOBE <br />
             TRADE PROBLEMS <br />
             <span className="text-[#1DA1F2]">INSTANTLY.</span>
           </h1>
 
           {/* Subheading */}
-          <p className="font-[Poppins] text-gray-600 mt-6 text-lg md:text-xl max-w-xl mx-auto md:mx-0 leading-relaxed">
+          <p className="font-[Poppins] text-gray-600 lg:mt-6 mt-2 text-lg md:text-xl max-w-xl mx-auto md:mx-0 leading-relaxed">
             Trusted by buyers worldwide to fix shipping delays, customs issues,
             fraud risks, and more.
           </p>
 
           {/* Buttons */}
-          <div className="mt-16 flex flex-col sm:flex-row items-center gap-8 justify-center md:justify-start">
+          <div className="lg:mt-16 md:mt-12 mt-6 flex flex-col sm:flex-row items-center md:gap-12 gap-6 justify-center md:justify-start">
             <Link
               to="/get-started"
               className="flex items-center gap-2 font-medium text-black border-b-2 border-transparent hover:border-black transition-all text-lg"
