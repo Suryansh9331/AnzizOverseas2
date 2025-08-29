@@ -318,7 +318,6 @@ const LostOrDamageSection = () => {
               alt="Shipping and logistics operations" 
               className="w-full h-64 sm:h-80 lg:h-96 object-fit"
             />
-            {/* Play button overlay */}
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="bg-white bg-opacity-90 rounded-full p-4 lg:p-6 shadow-lg hover:bg-opacity-100 transition-all duration-300 cursor-pointer">
                 <svg className="w-8 h-8 lg:w-12 lg:h-12 text-[#1DA1F2]" fill="currentColor" viewBox="0 0 24 24">
