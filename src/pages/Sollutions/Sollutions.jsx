@@ -333,10 +333,8 @@ const LostOrDamageSection = () => {
           </div>
         </div>
 
-        {/* Content Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           
-          {/* Left Side */}
           <div className="space-y-6">
             <h3 className="text-2xl lg:text-3xl font-bold text-gray-800">
               Lost or Damaged Goods
@@ -514,7 +512,7 @@ const GlobalTradeSection = () => {
         {/* Stats Section */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-12 mb-16 lg:mb-20">
           {stats.map((stat, index) => (
-            <div key={index} className="text-center">
+            <div key={index} className="text-center bg-[#E4F5FF] rounded-2xl py-6">
               <div 
                 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-2"
                 style={{ color: '#1DA1F2' }}
