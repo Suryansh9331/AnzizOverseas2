@@ -97,7 +97,7 @@
 // export default Second;
 
 
-import img from "../../assets/images/logistic.png"
+import img from "../../assets/Home/delivery.png"
 import { Globe, Truck, CreditCard } from "lucide-react"; // clean vector icons
 
 function Second() {
