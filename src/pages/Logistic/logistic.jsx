@@ -464,7 +464,6 @@ const ContactSection = () => {
 
                         {/* Map Container */}
                         <div className="w-full h-48 sm:h-64 bg-gray-200 rounded-lg overflow-hidden relative">
-                            {/* Map Image - Using a placeholder since we can't use unsplash */}
                             <div className="w-full h-full bg-gradient-to-br from-blue-200 to-blue-400 flex items-center justify-center">
                                 <div className="text-gray-600 text-center">
                                     <svg className="w-12 h-12 mx-auto mb-2" fill="currentColor" viewBox="0 0 24 24">
