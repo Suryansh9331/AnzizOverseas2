@@ -9,7 +9,6 @@ export default function Hero() {
                 style={{ backgroundImage: `url(${BgImg})` }}
             >
                 <div className="max-w-7xl w-full flex items-center justify-between">
-                    {/* Left side content */}
                     <div className="max-w-3xl">
                         <h1 className="text-6xl lg:text-8xl font-bold mb-6">
                             <div className="text-white mb-3">Verified Exporter</div>

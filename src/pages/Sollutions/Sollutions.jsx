@@ -44,7 +44,7 @@ const Sollutions = () => {
                             <span className="md:text-6xl text-3xl lg:text-7xl font-bold text-white">
                                 PROBLEMS
                             </span>
-                            <span className="md:text-6xl text-3xl lg:text-7xl  font-thin text-orange-600">
+                            <span className="md:text-6xl text-3xl lg:text-7xl  font-thin text-[#1DA1F2]">
                                 THAT STOP
                             </span>
                         </div>
@@ -70,7 +70,7 @@ const Sollutions = () => {
                         </button>
                         
                         {/* Watch Video Button */}
-                        <button className="flex items-center gap-3 bg-orange-600 text-white px-8 py-4 rounded-full hover:bg-orange-700 transition-all duration-300 group">
+                        <button className="flex items-center gap-3 bg-[#1DA1F2] text-white px-8 py-4 rounded-full hover:bg-orange-700 transition-all duration-300 group">
                             <span className="font-medium">WATCH VIDEO</span>
                             <Play className="w-5 h-5 fill-current group-hover:scale-110 transition-transform duration-300" />
                         </button>
@@ -318,7 +318,6 @@ const LostOrDamageSection = () => {
               alt="Shipping and logistics operations" 
               className="w-full h-64 sm:h-80 lg:h-96 object-fit"
             />
-            {/* Play button overlay */}
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="bg-white bg-opacity-90 rounded-full p-4 lg:p-6 shadow-lg hover:bg-opacity-100 transition-all duration-300 cursor-pointer">
                 <svg className="w-8 h-8 lg:w-12 lg:h-12 text-[#1DA1F2]" fill="currentColor" viewBox="0 0 24 24">
@@ -333,10 +332,8 @@ const LostOrDamageSection = () => {
           </div>
         </div>
 
-        {/* Content Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           
-          {/* Left Side */}
           <div className="space-y-6">
             <h3 className="text-2xl lg:text-3xl font-bold text-gray-800">
               Lost or Damaged Goods
@@ -514,7 +511,7 @@ const GlobalTradeSection = () => {
         {/* Stats Section */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-12 mb-16 lg:mb-20">
           {stats.map((stat, index) => (
-            <div key={index} className="text-center">
+            <div key={index} className="text-center bg-[#E4F5FF] rounded-2xl py-6">
               <div 
                 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-2"
                 style={{ color: '#1DA1F2' }}
