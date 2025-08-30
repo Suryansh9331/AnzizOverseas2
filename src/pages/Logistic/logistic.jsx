@@ -418,7 +418,6 @@ const ContactSection = () => {
                                 />
                             </div>
 
-                            {/* Message Textarea */}
                             <div>
                                 <textarea
                                     name="message"
