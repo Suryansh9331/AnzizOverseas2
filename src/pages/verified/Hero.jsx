@@ -1,6 +1,5 @@
 import React from "react";
 import BgImg from "../../assets/verefied/bg3.png";
-import ReadMoreArrowImg from "../../assets/verefied/read-more-arrow.png";
 
 export default function Hero() {
   return (
