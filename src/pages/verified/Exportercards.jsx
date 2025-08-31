@@ -1,7 +1,7 @@
-import Img1 from "../../assets/verefied/image1.png";
-import Img2 from "../../assets/verefied/image2.png";
-import Img3 from "../../assets/verefied/image3.png";
-import Img4 from "../../assets/verefied/image4.png";
+import Img1 from "../../assets/verefied/card1.png";
+import Img2 from "../../assets/verefied/card2.png";
+import Img3 from "../../assets/verefied/card3.png";
+import Img4 from "../../assets/verefied/card4.png";
 import { ArrowRight, ChevronRight } from "lucide-react";
 
 
@@ -62,28 +62,28 @@ const ExporterCards = () => {
                             
                             {/* Content */}
                             <div className="p-6">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                                <h3 className="text-2xl font-semibold text-gray-900 mb-4 font-[outfit] ">
                                     {exporter.title}
                                 </h3>
                                 
                                 {/* Description with arrow bullet */}
                                 <div className="flex items-start gap-3 mb-3">
-                                    <ChevronRight className="w-4 h-4 text-red-500 mt-1 flex-shrink-0" />
-                                    <p className="text-gray-600 text-sm">
+                                    <ChevronRight className="w-4 h-4 text-blue-500 mt-1 flex-shrink-0" />
+                                    <p className=" text-sm text-[#7B7B7B] font-[poppins] font-medium  ">
                                         {exporter.description}
                                     </p>
                                 </div>
                                 
                                 {/* MOQ Info with arrow bullet */}
                                 <div className="flex items-start gap-3 mb-6">
-                                    <ChevronRight className="w-4 h-4 text-red-500 mt-1 flex-shrink-0" />
-                                    <p className="text-gray-600 text-sm">
+                                    <ChevronRight className="w-4 h-4 text-blue-500 mt-1 flex-shrink-0" />
+                                    <p className=" text-sm text-[#7B7B7B] font-[poppins] font-medium ">
                                         {exporter.moq}
                                     </p>
                                 </div>
                                 
                                 {/* View Profile Button */}
-                                <button className="bg-red-500 hover:bg-red-600 text-white px-8 py-3 rounded-full font-medium transition-colors duration-200 text-sm uppercase tracking-wider">
+                                <button className="bg-[#1DA1F2] hover:bg-blue-600 text-white px-8 py-3 rounded-full font-medium transition-colors duration-200 text-sm uppercase tracking-wider">
                                     VIEW PROFILE
                                 </button>
                             </div>
@@ -93,7 +93,7 @@ const ExporterCards = () => {
 
                 {/* Browse All Button */}
                 <div className="text-center">
-                    <button className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 rounded-full font-medium transition-colors duration-200 text-sm uppercase tracking-wider">
+                    <button className="bg-[#1DA1F2] hover:bg-blue-600 text-white px-8 py-4 rounded-full font-medium transition-colors duration-200 text-sm uppercase tracking-wider">
                         BROWSE ALL VERIFIED EXPORTERS
                     </button>
                 </div>
