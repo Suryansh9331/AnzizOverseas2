@@ -1,21 +1,21 @@
 import React from "react";
-import BgImg from "../../assets/verefied/bg.png";
+import BgImg from "../../assets/verefied/bg2.png";
 import ReadMoreArrowImg from "../../assets/verefied/read-more-arrow.png";
 
 export default function Hero() {
   return (
     <div
-      className="min-h-screen w-full bg-cover bg-center bg-no-repeat relative flex items-center justify-center px-4 sm:px-6 lg:px-8"
+      className="min-h-screen w-full bg-cover bg-center bg-no-repeat  relative flex items-center justify-center px-4 sm:px-6 lg:px-8"
       style={{ backgroundImage: `url(${BgImg})` }}
     >
       <div className="max-w-7xl w-full flex items-center justify-between">
         <div className="max-w-3xl">
-          <h1 className="text-6xl lg:text-8xl font-bold mb-6">
+          <h1 className="text-6xl lg:text-7xl font-bold mb-6">
             <div className="text-white mb-3">Verified Exporter</div>
             <div className="text-[#1DA1F2]">Showroom</div>
           </h1>
 
-          <p className="text-white text-xl lg:text-2xl mb-10 leading-relaxed max-w-xl">
+          <p className="text-white text-xl lg:text-xl mb-10 leading-relaxed max-w-xl">
             Browse trusted, pre-verified exporters from around the globe — ready
             to ship quality products directly to you.
           </p>
