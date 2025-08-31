@@ -1,68 +1,71 @@
-import Img7 from '../../assets/sollutions/image7.png'
-import Img8 from '../../assets/sollutions/image8.png'
-import Img9 from '../../assets/sollutions/image9.png'
-import { Phone } from 'lucide-react'
+import Img7 from "../../assets/sollutions/image7.png";
+import Img8 from "../../assets/sollutions/image8.png";
+import Img9 from "../../assets/sollutions/image9.png";
+import { Phone } from "lucide-react";
 const GlobalTradeSection = () => {
   const stats = [
     { number: "300+", label: "Clients Review" },
     { number: "120+", label: "Team Member" },
-    { number: "1k+", label: "Complete Project" }
-  ]
+    { number: "1k+", label: "Complete Project" },
+  ];
 
   return (
     <div className="bg-gray-50 py-16 lg:py-24">
-      <div className="container mx-auto px-6 lg:px-12">
-        
+      <div className="container mx-auto px-2 lg:px-12">
         {/* Main Heading */}
-        <div className="text-center mb-16 lg:mb-24">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-800 leading-tight">
-              <div className="mb-2">
+        <div className="text-center mb-12 sm:mb-16 lg:mb-24">
+          <div className="max-w-7xl mx-auto ">
+            <h2 className="text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-800 leading-tight">
+              {/* Line 1 */}
+              <div className="mb-3 sm:mb-4">
                 A creative agency specializes in
               </div>
-              
-              <div className="flex flex-wrap items-center justify-center gap-2 lg:gap-4 mb-2">
+
+              {/* Line 2 */}
+              <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4">
                 <span>crafting</span>
                 <div className="flex -space-x-2">
-                  <img 
-                    src={Img8} 
+                  <img
+                    src={Img8}
                     alt="Team member 1"
-                    className="w-24 h-10 sm:w-12 sm:h-12 lg:w-40 lg:h-16 rounded-full border-2 border-white object-cover"
+                    className="w-16 h-8 xs:w-20 xs:h-10 sm:w-12 sm:h-12 md:w-20 md:h-12 lg:w-40 lg:h-16 rounded-full border-2 border-white object-cover"
                   />
-                  
                 </div>
-                <span>unique and impact and</span>
+                <span>unique and impactful</span>
               </div>
-              
-              <div className="flex flex-wrap items-center justify-center gap-2 lg:gap-4">
+
+              {/* Line 3 */}
+              <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 lg:gap-4">
                 <span>digital solutions</span>
                 <div className="flex -space-x-2">
-                  <img 
-                    src={Img9} 
+                  <img
+                    src={Img9}
                     alt="Client 1"
-                    className="w-28 h-10 sm:w-12 sm:h-12 lg:w-40 lg:h-16 rounded-full border-2 border-white object-cover"
+                    className="w-16 h-8 xs:w-20 xs:h-10 sm:w-12 sm:h-12 md:w-20 md:h-12 lg:w-40 lg:h-16 rounded-full border-2 border-white object-cover"
                   />
-                  
                 </div>
                 <span>for clients</span>
               </div>
             </h2>
           </div>
-        </div>
+        </div>  
 
         {/* Stats Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-12 mb-16 lg:mb-20">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-12 mb-16 lg:mb-20 px-4">
           {stats.map((stat, index) => (
-            <div key={index} className="text-center bg-[#E4F5FF] rounded-2xl py-6">
-              <div 
+            <div
+              key={index}
+              className="text-center bg-[#E4F5FF] rounded-2xl py-6"
+            >
+              <div
                 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-2"
-                style={{ color: '#1DA1F2' }}
+                style={{ color: "#1DA1F2" }}
               >
                 {stat.number}
               </div>
-              <div 
+              <div
                 className="text-base lg:text-lg font-medium"
-                style={{ color: '#1DA1F2' }}
+                style={{ color: "#1DA1F2" }}
               >
                 {stat.label}
               </div>
@@ -84,9 +87,8 @@ const GlobalTradeSection = () => {
             <span>BOOK CALL</span>
           </button>
         </div> */}
-
       </div>
     </div>
-  )
-}
+  );
+};
 export default GlobalTradeSection;

@@ -1,10 +1,8 @@
 import React from "react";
 import { MapPin, FileText } from "lucide-react"; // icons
-import Img6 from "../../assets/Home/c1.png"; 
-import Img7 from "../../assets/Home/c2.png"; 
-import Img8 from "../../assets/Home/c3.png"; 
-
-
+import Img6 from "../../assets/Home/c1.png";
+import Img7 from "../../assets/Home/c2.png";
+import Img8 from "../../assets/Home/c3.png";
 
 // Sample data with internet images
 const courses = [
@@ -42,7 +40,7 @@ export default function LearningSection() {
     <div className="bg-[#DDF2FF] min-h-screen px-4 sm:px-6 lg:px-12 py-12 font-outfit">
       {/* Heading */}
       <div className="text-center max-w-2xl mx-auto mb-8">
-        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#232323]">
+        <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold text-[#232323]">
           Learn to Trade Smarter — Not Harder
         </h2>
         <p className="mt-2 text-[#232323] text-base sm:text-lg">
@@ -51,19 +49,21 @@ export default function LearningSection() {
       </div>
 
       {/* Category Bar */}
-      <div className="flex flex-wrap items-center justify-center gap-4 bg-[#B9E2FB] rounded-xl px-6 py-3 w-fit mx-auto mb-10">
-        <button className="px-6 py-2 rounded-lg bg-[#1DA1F2] text-white font-medium">
-          View All
-        </button>
-        <button className="px-4 py-2 rounded-lg text-[#232323] font-medium hover:bg-white transition">
-          Region
-        </button>
-        <button className="px-4 py-2 rounded-lg text-[#232323] font-medium hover:bg-white transition">
-          Topic
-        </button>
-        <button className="px-4 py-2 rounded-lg text-[#232323] font-medium hover:bg-white transition">
-          Language
-        </button>
+      <div className="overflow-x-auto">
+        <div className="flex items-center gap-3 md:gap-4 bg-[#B9E2FB] rounded-xl  px-0  md:px-6 py-3 w-full sm:w-fit  mb-10 flex-wrap sm:flex-nowrap justify-center sm:justify-start">
+          <button className="px-2 md:px-6 py-2 rounded-lg bg-[#1DA1F2] text-white font-medium whitespace-nowrap">
+            View All
+          </button>
+          <button className="px-2 md:px-6 py-2 rounded-lg text-[#232323] font-medium hover:bg-white transition whitespace-nowrap">
+            Region
+          </button>
+          <button className="px-2 md:px-6 py-2 rounded-lg text-[#232323] font-medium hover:bg-white transition whitespace-nowrap">
+            Topic
+          </button>
+          <button className=" py-2 rounded-lg text-[#232323] font-medium hover:bg-white transition whitespace-nowrap">
+            Language
+          </button>
+        </div>
       </div>
 
       {/* Courses */}

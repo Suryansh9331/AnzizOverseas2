@@ -50,7 +50,7 @@ export default function ConsultationBooking() {
 
   return (
     <div className="min-h-screen bg-[#DDF2FF] font-[Poppins] px-4 py-16">
-      <div className="max-w-7xl mx-auto grid lg:grid-cols-3 gap-10">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-3 md:grid-col-2  gap-10">
         <div>
           {/* Heading outside card */}
           <h2 className="text-4xl font-[Outfit] font-bold mb-6">Ask an expert</h2>
@@ -155,7 +155,7 @@ export default function ConsultationBooking() {
             <div className="w-12 h-12 bg-[#1DA1F2] rounded-full flex items-center justify-center">
               <Phone className="text-white" />
             </div>
-            <h3 className="text-xl font-[Outfit] font-semibold">
+            <h3 className="text-2xl font-[Outfit] font-semibold">
               Book a 1-on-1 Consultation with Mr. Suprans
             </h3>
           </div>
@@ -231,3 +231,4 @@ function MessageIcon() {
     </svg>
   );
 }
+

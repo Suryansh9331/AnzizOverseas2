@@ -29,7 +29,7 @@ export default function TestimonialSection() {
           ------ Client Testimonial ------
         </p>
 
-        <h2 className="font-outfit text-4xl md:text-5xl font-bold mb-12">
+        <h2 className="font-outfit text-3xl md:text-5xl font-bold mb-12">
           Excellence in Every Pixel <br />
           Where <span className="text-[#1DA1F2]">Ideas</span>
         </h2>
