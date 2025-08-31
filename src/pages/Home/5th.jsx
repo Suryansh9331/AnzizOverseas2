@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { BookOpen, MessageSquare, Phone } from "lucide-react";
-import img1  from "../../assets/images/c1.png"
-import img2  from "../../assets/images/c2.png"
-import img3  from "../../assets/images/c3.png"
-import img4  from "../../assets/images/c4.png"
-import img5  from "../../assets/images/c5.png"
-import img6  from "../../assets/images/c6.png"
-import img7  from "../../assets/images/c7.png"
+import img1 from "../../assets/images/c1.png";
+import img2 from "../../assets/images/c2.png";
+import img3 from "../../assets/images/c3.png";
+import img4 from "../../assets/images/c4.png";
+import img5 from "../../assets/images/c5.png";
+import img6 from "../../assets/images/c6.png";
+import img7 from "../../assets/images/c7.png";
 const suppliers = [
   {
     id: 1,
@@ -72,67 +72,63 @@ const SupplierSection = () => {
   });
 
   return (
-    <section className="px-6 lg:px-16 md:px-12 py-16 lg:py-20 min-h-screen  ">
+    <section className="px-6 lg:px-16 md:px-12 py-16 lg:py-20   ">
       {/* Heading */}
       <h2 className="text-2xl md:text-3xl font-outfit font-semibold mb-6 text-gray-900">
         Meet Verified Suppliers You Can Trust
       </h2>
 
       {/* Filter Box */}
-      <div className="inline-flex flex-wrap gap-4 bg-[#B9E2FB] p-3 rounded-md mb-10">
-        {/* Country */}
-        <select
-          value={selectedCountry}
-          onChange={(e) => setSelectedCountry(e.target.value)}
-          className="font-semibold px-4 py-2 rounded font-poppins text-sm"
-        >
-          <option value="All">Country</option>
-          <option value="China">China</option>
-          <option value="India">India</option>
-          <option value="Brazil">Brazil</option>
-          <option value="Turkey">Turkey</option>
-          <option value="Vietnam">Vietnam</option>
-          <option value="Spain">Spain</option>
-        </select>
+      {/* <div className="bg-[#B9E2FB] p-3 rounded-md mb-10">
+        <div className="grid grid-cols-2 gap-4 sm:inline-flex sm:flex-wrap">
+          <select
+            value={selectedCountry}
+            onChange={(e) => setSelectedCountry(e.target.value)}
+            className="font-semibold px-4 py-2 rounded font-poppins text-sm w-full sm:w-auto"
+          >
+            <option value="All">Country</option>
+            <option value="China">China</option>
+            <option value="India">India</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Turkey">Turkey</option>
+            <option value="Vietnam">Vietnam</option>
+            <option value="Spain">Spain</option>
+          </select>
 
-        {/* Product */}
-        <select
-          value={selectedProduct}
-          onChange={(e) => setSelectedProduct(e.target.value)}
-          className="font-semibold px-4 py-2 rounded font-poppins text-sm"
-        >
-          <option value="All">Product</option>
-          <option value="Machinery">Machinery</option>
-          <option value="Electronics">Electronics</option>
-          <option value="Agriculture">Agriculture</option>
-          <option value="Textiles">Textiles</option>
-          <option value="Packaging">Packaging</option>
-          <option value="Food">Food</option>
-        </select>
+          <select
+            value={selectedProduct}
+            onChange={(e) => setSelectedProduct(e.target.value)}
+            className="font-semibold px-4 py-2 rounded font-poppins text-sm w-full sm:w-auto"
+          >
+            <option value="All">Product</option>
+            <option value="Machinery">Machinery</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Agriculture">Agriculture</option>
+            <option value="Textiles">Textiles</option>
+            <option value="Packaging">Packaging</option>
+            <option value="Food">Food</option>
+          </select>
 
-        {/* Verified Badge */}
-        <select
-          value={selectedBadge}
-          onChange={(e) => setSelectedBadge(e.target.value)}
-          className="font-semibold px-4 py-2 rounded font-poppins text-sm"
-        >
-          <option value="All">Verified Badge</option>
-          <option value="ISO">ISO 9001 Certified</option>
-          <option value="CE">CE, RoHS Compliant</option>
-          <option value="Organic">Organic Certified</option>
-          <option value="GOTS">GOTS Certified</option>
-          <option value="FSC">FSC Certified</option>
-          <option value="HACCP">HACCP Certified</option>
-        </select>
-      </div>
+          <select
+            value={selectedBadge}
+            onChange={(e) => setSelectedBadge(e.target.value)}
+            className="font-semibold px-4 py-2 rounded font-poppins text-sm w-full sm:w-auto"
+          >
+            <option value="All">Verified Badge</option>
+            <option value="ISO">ISO 9001 Certified</option>
+            <option value="CE">CE, RoHS Compliant</option>
+            <option value="Organic">Organic Certified</option>
+            <option value="GOTS">GOTS Certified</option>
+            <option value="FSC">FSC Certified</option>
+            <option value="HACCP">HACCP Certified</option>
+          </select>
+        </div>
+      </div> */}
 
       {/* Supplier Grid */}
       <div className="grid py-12 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
         {filteredSuppliers.map((supplier) => (
-          <div
-            key={supplier.id}
-            className="font-poppins text-left"
-          >
+          <div key={supplier.id} className="font-poppins text-left">
             <div className="rounded-lg overflow-hidden">
               <img
                 src={supplier.image}
@@ -148,14 +144,14 @@ const SupplierSection = () => {
       </div>
 
       {/* Action Buttons */}
-      <div className="flex flex-wrap gap-8 mt-14   mb-10 justify-center">
+      <div className="flex flex-wrap gap-8 md:mt-14  mt-8 mb-6  md:mb-10 justify-center">
         <button className="flex uppercase items-center gap-2 px-6 py-3 rounded-full text-white bg-[#665957] font-poppins text-xs font-medium ">
           <BookOpen size={16} /> Request Sample
         </button>
-        <button className="flex uppercase items-center gap-2 px-5 py-2 rounded-full text-white bg-black font-poppins text-xs font-medium ">
+        <button className="flex uppercase items-center gap-2 px-5 py-3 rounded-full text-white bg-black font-poppins text-xs font-medium ">
           <MessageSquare size={16} /> Message Supplier
         </button>
-        <button className="flex uppercase items-center gap-2 px-5 py-2 rounded-full text-white bg-[#1DA1F2] font-poppins text-xs font-medium">
+        <button className="flex uppercase items-center gap-2 px-5 py-3 rounded-full text-white bg-[#1DA1F2] font-poppins text-xs font-medium">
           <Phone size={16} /> Book Call
         </button>
       </div>
