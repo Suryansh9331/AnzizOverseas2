@@ -1,20 +1,18 @@
 import React from "react";
-// import chartImg from "../../assets/Learninghub/chart.png"; 
-import BgImg from "../../assets/Learninghub/hero.png"; 
+// import chartImg from "../../assets/Learninghub/chart.png";
+import BgImg from "../../assets/Learninghub/herobg.png";
 export default function HeroSection() {
   return (
-
-          <div
-            className="min-h-screen w-full bg-cover bg-center bg-no-repeat relative flex items-center justify-center px-4 sm:px-6 lg:px-8"
-            style={{ backgroundImage: `url(${BgImg})` }}
-          >
-    
+    <div
+      className="min-h-screen w-full bg-cover bg-center bg-no-repeat relative flex items-center justify-center px-4 sm:px-6 lg:px-8"
+      style={{ backgroundImage: `url(${BgImg})` }}
+    >
       <div className="max-w-5xl mx-auto relative z-10 text-center">
-        
         {/* Main Heading */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-snug mx-auto text-center">
           Learn to Trade Smarter — <br />
-          Not <span className="text-[#1DA1F2] relative inline-block">
+          Not{" "}
+          <span className="text-[#1DA1F2] relative inline-block">
             Harder.
             {/* Dashed underline */}
             <span className="absolute -bottom-3 left-0 w-full h-[3px] border-b-2 border-dashed border-[#1DA1F2]" />
@@ -29,14 +27,15 @@ export default function HeroSection() {
 
         {/* Read More Button */}
         <div className="mt-10 flex justify-center">
-          <button className="flex items-center gap-2 border border-white rounded-full px-8 py-3 hover:bg-[#1DA1F2] hover:border-[#1DA1F2] transition-all"
+          <button
+            className="flex items-center gap-2 border border-white rounded-full px-8 py-3 hover:bg-[#1DA1F2] hover:border-[#1DA1F2] transition-all"
             onClick={() =>
-                    window.scrollBy({
-                      top: window.innerHeight,
-                      left: 0,
-                      behavior: "smooth",
-                    })
-                  }
+              window.scrollBy({
+                top: window.innerHeight,
+                left: 0,
+                behavior: "smooth",
+              })
+            }
           >
             <span className="text-base font-medium text-white">READ MORE</span>
             <svg
@@ -55,7 +54,7 @@ export default function HeroSection() {
           </button>
         </div>
       </div>
-          </div>
+    </div>
     // <section className="w-full bg-[#232323] min-h-screen font-[Outfit] text-white px-6 md:px-12 lg:px-20 py-20 relative overflow-hidden">
 
     //   <div className="absolute bottom-8 right-10 w-[260px] sm:w-[320px] md:w-[380px] lg:w-[420px]">

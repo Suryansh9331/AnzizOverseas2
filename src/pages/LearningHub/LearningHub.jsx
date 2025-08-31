@@ -13,7 +13,7 @@ const Learninghub = () => {
       <HeroSection />
 
       <div className="py-8 sm:py-12 px-4 sm:px-6">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto md:block  hidden">
           <h2 className="text-2xl sm:text-3xl font-semibold text-center sm:text-left text-gray-800 mb-6 sm:mb-8">
             Explore Tools by Category
           </h2>
@@ -90,15 +90,15 @@ const Learninghub = () => {
       <ServicesGridSection />
       <TradeStrategiesSection />
 <FourthSectiion/>
-      <section className="w-full bg-white py-20  h-[50vh]  px-4 flex flex-col justify-center">
-        <div className="max-w-3xl mx-auto text-center">
+      <section className="w-full bg-white py-20    px-4 flex flex-col justify-center">
+        <div className="max-w-7xl mx-auto text-center">
           {/* Main Heading */}
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 font-['Outfit']">
+          <h2 className="text-3xl  md:text-5xl font-bold text-gray-900 font-['Outfit']">
             Free for all buyers — no registration required.{" "}
           </h2>
 
           {/* Subheading */}
-          <p className="mt-3 text-gray-500 text-sm sm:text-base md:text-lg font-['Poppins']">
+          <p className="mt-5 text-gray-500 text-xs  md:text-lg font-['Poppins']">
             Unlock Markets, Build Trust, and Scale Without Borders{" "}
           </p>
 

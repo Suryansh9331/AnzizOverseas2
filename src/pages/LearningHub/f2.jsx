@@ -1,5 +1,5 @@
 import React from "react";
-import Img6 from "../../assets/Learninghub/f2banner.png";
+import Img6 from "../../assets/Learninghub/f2.png";
 
 const TradeStrategiesSection = () => {
   return (
@@ -10,14 +10,10 @@ const TradeStrategiesSection = () => {
           <img
             src={Img6}
             alt="Advanced trade strategies"
-            className="w-full h-64 sm:h-80 lg:h-96 object-cover rounded-xl"
+            className="w-full h-64 md:h-80 lg:h-96 md:object-contain object-fill bg-white"
           />
 
-          <span className="absolute top-0 left-0 w-12 h-12 border-t-2 border-l-2 border-[#1DA1F2] rounded-tl-md"></span>
-          <span className="absolute top-0 right-0 w-12 h-12 border-t-2 border-r-2 border-[#1DA1F2] rounded-tr-md"></span>
-          <span className="absolute bottom-0 left-0 w-12 h-12 border-b-2 border-l-2 border-[#1DA1F2] rounded-bl-md"></span>
-          <span className="absolute bottom-0 right-0 w-12 h-12 border-b-2 border-r-2 border-[#1DA1F2] rounded-br-md"></span>
-
+         
           {/* Play button overlay */}
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="bg-white bg-opacity-80 rounded-full p-5 shadow-md hover:bg-opacity-100 transition cursor-pointer">
