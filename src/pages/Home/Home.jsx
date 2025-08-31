@@ -25,7 +25,7 @@ function Home() {
     
       <ConsultationBooking />
       <TestimonialSection />
-      <section className="w-full bg-white py-20   h-[50vh]  px-4 b">
+      <section className="w-full bg-white md:py-20 py-10   px-4 b">
         <div className="max-w-3xl mx-auto text-center">
           {/* Main Heading */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 font-['Outfit']">
