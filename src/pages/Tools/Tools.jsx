@@ -2,13 +2,14 @@ import React, { useEffect, useState } from "react";
 import BgImg from "../../assets/tools/tools-hero-bg.png";
 import arrowImg from "../../assets/tools/arrow.png";
 import Sec2Img from "../../assets/tools/sec2.png";
-import Grid1Img from "../../assets/tools/grid-1.png";
-import Grid2Img from "../../assets/tools/grid-2.png";
-import Grid3Img from "../../assets/tools/grid-3.png";
-import Grid4Img from "../../assets/tools/grid-4.png";
-import Grid5Img from "../../assets/tools/grid-5.png";
-import UseToolBtnImg from "../../assets/tools/use-tool-btn.png";
+import Grid1Img from "../../assets/tools/icon1.png";
+import Grid2Img from "../../assets/tools/icon2.png";
+import Grid3Img from "../../assets/tools/icon3.png";
+import Grid4Img from "../../assets/tools/icon4.png";
+import Grid5Img from "../../assets/tools/icon5.png";
+import UseToolBtnImg from "../../assets/tools/btn.png";
 import ContactBtnImg from "../../assets/tools/contact-btn.png";
+import FAQSection from "../Home/8th";
 
 const cardsData = [
   {
@@ -103,7 +104,7 @@ const Tools = () => {
           <div className="max-w-7xl mx-auto text-center sm:text-left">
             {/* Main Heading */}
             <h1 className="text-white mb-6 sm:mb-8">
-              <div className="text-3xl  md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold leading-tight mb-2 sm:mb-4">
+              <div className="text-3xl  md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-8xl font-bold leading-tight mb-2 sm:mb-4">
                 SMART TOOL BUILT FOR
               </div>
 
@@ -139,7 +140,7 @@ const Tools = () => {
 
             {/* Play Button */}
             <button className="flex items-center text-white px-4 sm:px-6 py-3 rounded-full transition-colors duration-300 group gap-2 sm:gap-3 mx-auto sm:mx-0">
-              <div className="rounded-full flex items-center justify-center bg-orange-500 hover:bg-orange-600">
+              <div className="rounded-full flex items-center justify-center bg-blue-500 hover:bg-blue-600">
                 <svg
                   viewBox="0 0 24 24"
                   fill="currentColor"
@@ -163,7 +164,7 @@ const Tools = () => {
           </h2>
 
           {/* Category Tabs Container */}
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto md:block  hidden">
             <div
               className="rounded-xl p-3 px-6 sm:px-12 flex items-center gap-2 sm:gap-4 min-w-max sm:max-w-2xl"
               style={{ backgroundColor: "#B9E2FB" }}
@@ -294,7 +295,7 @@ const Tools = () => {
               <img
                 src={Sec2Img}
                 alt="Advanced Solutions"
-                className="rounded-2xl max-w-full h-auto w-full max-w-md lg:max-w-none"
+                className="rounded-2xl max-w-full h-auto w-full  lg:max-w-none"
               />
             </div>
           </div>
@@ -383,206 +384,206 @@ const Tools = () => {
         </div>
       </div>
 
-      <FAQSection />
+     <FAQSection/>
       <ContactSection />
     </>
   );
 };
 
-const FAQSection = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+// const FAQSection = () => {
+//   const [activeIndex, setActiveIndex] = useState(0);
 
-  const faqData = [
-    {
-      id: 1,
-      question: "What types of businesses do you support?",
-      answer:
-        "Car service is essential for maintaining the performance and maintaining the performance and longevity Car service is essential for maintaining",
-    },
-    {
-      id: 2,
-      question: "What are the signs of brake wear?",
-      answer:
-        "Common signs include squeaking or grinding noises, vibration when braking, longer stopping distances, and the brake pedal feeling soft or spongy.",
-    },
-    {
-      id: 3,
-      question: "Can regular maintenance prevent major repairs?",
-      answer:
-        "Yes, regular maintenance can significantly reduce the likelihood of major repairs by catching issues early and keeping your vehicle systems running efficiently.",
-    },
-    {
-      id: 4,
-      question: "Are scheduled service intervals important for my car?",
-      answer:
-        "Absolutely. Following scheduled service intervals helps maintain warranty coverage, ensures optimal performance, and prevents costly breakdowns.",
-    },
-  ];
+//   const faqData = [
+//     {
+//       id: 1,
+//       question: "What types of businesses do you support?",
+//       answer:
+//         "Car service is essential for maintaining the performance and maintaining the performance and longevity Car service is essential for maintaining",
+//     },
+//     {
+//       id: 2,
+//       question: "What are the signs of brake wear?",
+//       answer:
+//         "Common signs include squeaking or grinding noises, vibration when braking, longer stopping distances, and the brake pedal feeling soft or spongy.",
+//     },
+//     {
+//       id: 3,
+//       question: "Can regular maintenance prevent major repairs?",
+//       answer:
+//         "Yes, regular maintenance can significantly reduce the likelihood of major repairs by catching issues early and keeping your vehicle systems running efficiently.",
+//     },
+//     {
+//       id: 4,
+//       question: "Are scheduled service intervals important for my car?",
+//       answer:
+//         "Absolutely. Following scheduled service intervals helps maintain warranty coverage, ensures optimal performance, and prevents costly breakdowns.",
+//     },
+//   ];
 
-  const toggleFAQ = (index) => {
-    setActiveIndex(activeIndex === index ? -1 : index);
-  };
+//   const toggleFAQ = (index) => {
+//     setActiveIndex(activeIndex === index ? -1 : index);
+//   };
 
-  return (
-    <div className="py-12 sm:py-16 px-4 sm:px-6 bg-white">
-      <div className="max-w-7xl mx-auto">
-        {/* Header Section */}
-        <div className="text-center mb-12 sm:mb-16">
-          <div className="flex items-center justify-center mb-6 sm:mb-8">
-            {/* Left Dotted Line */}
-            <div className="flex-1 max-w-8 sm:max-w-16">
-              <div
-                className="h-px w-full"
-                style={{
-                  backgroundImage: `repeating-linear-gradient(to right, #1DA1F2 0, #1DA1F2 4px, transparent 4px, transparent 8px)`,
-                }}
-              ></div>
-            </div>
+//   return (
+//     <div className="py-12 sm:py-16 px-4 sm:px-6 bg-white">
+//       <div className="max-w-7xl mx-auto">
+//         {/* Header Section */}
+//         <div className="text-center mb-12 sm:mb-16">
+//           <div className="flex items-center justify-center mb-6 sm:mb-8">
+//             {/* Left Dotted Line */}
+//             <div className="flex-1 max-w-8 sm:max-w-16">
+//               <div
+//                 className="h-px w-full"
+//                 style={{
+//                   backgroundImage: `repeating-linear-gradient(to right, #1DA1F2 0, #1DA1F2 4px, transparent 4px, transparent 8px)`,
+//                 }}
+//               ></div>
+//             </div>
 
-            {/* Text */}
-            <div
-              className="px-4 sm:px-6 text-xs sm:text-sm font-medium tracking-wider uppercase"
-              style={{ color: "#1DA1F2" }}
-            >
-              ASK QUESTION
-            </div>
+//             {/* Text */}
+//             <div
+//               className="px-4 sm:px-6 text-xs sm:text-sm font-medium tracking-wider uppercase"
+//               style={{ color: "#1DA1F2" }}
+//             >
+//               ASK QUESTION
+//             </div>
 
-            {/* Right Dotted Line */}
-            <div className="flex-1 max-w-8 sm:max-w-16">
-              <div
-                className="h-px w-full"
-                style={{
-                  backgroundImage: `repeating-linear-gradient(to right, #1DA1F2 0, #1DA1F2 4px, transparent 4px, transparent 8px)`,
-                }}
-              ></div>
-            </div>
-          </div>
+//             {/* Right Dotted Line */}
+//             <div className="flex-1 max-w-8 sm:max-w-16">
+//               <div
+//                 className="h-px w-full"
+//                 style={{
+//                   backgroundImage: `repeating-linear-gradient(to right, #1DA1F2 0, #1DA1F2 4px, transparent 4px, transparent 8px)`,
+//                 }}
+//               ></div>
+//             </div>
+//           </div>
 
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-            Got Questions? We've
-            <br className="hidden sm:block" />
-            Got Answers
-          </h2>
-        </div>
+//           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+//             Got Questions? We've
+//             <br className="hidden sm:block" />
+//             Got Answers
+//           </h2>
+//         </div>
 
-        {/* Main Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 sm:gap-16 items-start">
-          {/* Left Side - FAQ */}
-          <div className="space-y-4 sm:space-y-6">
-            {faqData.map((faq, index) => (
-              <div
-                key={faq.id}
-                className="border-b border-gray-200 pb-4 sm:pb-6"
-              >
-                <button
-                  onClick={() => toggleFAQ(index)}
-                  className="flex items-start justify-between w-full text-left gap-4"
-                >
-                  <div className="flex items-start space-x-3 sm:space-x-4 flex-1">
-                    <span className="text-gray-600 font-medium text-base sm:text-lg flex-shrink-0 mt-1">
-                      0{faq.id}.
-                    </span>
-                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
-                      {faq.question}
-                    </h3>
-                  </div>
-                  <div
-                    className="w-8 h-8 rounded-full border-2 flex items-center justify-center flex-shrink-0 mt-1"
-                    style={{ borderColor: "#1DA1F2" }}
-                  >
-                    {activeIndex === index ? (
-                      <svg
-                        className="w-4 h-4"
-                        style={{ color: "#1DA1F2" }}
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M19 9l-7 7-7-7"
-                        />
-                      </svg>
-                    ) : (
-                      <svg
-                        className="w-4 h-4"
-                        style={{ color: "#1DA1F2" }}
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M9 5l7 7-7 7"
-                        />
-                      </svg>
-                    )}
-                  </div>
-                </button>
+//         {/* Main Content Grid */}
+//         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 sm:gap-16 items-start">
+//           {/* Left Side - FAQ */}
+//           <div className="space-y-4 sm:space-y-6">
+//             {faqData.map((faq, index) => (
+//               <div
+//                 key={faq.id}
+//                 className="border-b border-gray-200 pb-4 sm:pb-6"
+//               >
+//                 <button
+//                   onClick={() => toggleFAQ(index)}
+//                   className="flex items-start justify-between w-full text-left gap-4"
+//                 >
+//                   <div className="flex items-start space-x-3 sm:space-x-4 flex-1">
+//                     <span className="text-gray-600 font-medium text-base sm:text-lg flex-shrink-0 mt-1">
+//                       0{faq.id}.
+//                     </span>
+//                     <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
+//                       {faq.question}
+//                     </h3>
+//                   </div>
+//                   <div
+//                     className="w-8 h-8 rounded-full border-2 flex items-center justify-center flex-shrink-0 mt-1"
+//                     style={{ borderColor: "#1DA1F2" }}
+//                   >
+//                     {activeIndex === index ? (
+//                       <svg
+//                         className="w-4 h-4"
+//                         style={{ color: "#1DA1F2" }}
+//                         fill="none"
+//                         stroke="currentColor"
+//                         viewBox="0 0 24 24"
+//                       >
+//                         <path
+//                           strokeLinecap="round"
+//                           strokeLinejoin="round"
+//                           strokeWidth={2}
+//                           d="M19 9l-7 7-7-7"
+//                         />
+//                       </svg>
+//                     ) : (
+//                       <svg
+//                         className="w-4 h-4"
+//                         style={{ color: "#1DA1F2" }}
+//                         fill="none"
+//                         stroke="currentColor"
+//                         viewBox="0 0 24 24"
+//                       >
+//                         <path
+//                           strokeLinecap="round"
+//                           strokeLinejoin="round"
+//                           strokeWidth={2}
+//                           d="M9 5l7 7-7 7"
+//                         />
+//                       </svg>
+//                     )}
+//                   </div>
+//                 </button>
 
-                {activeIndex === index && (
-                  <div className="mt-4 pl-6 sm:pl-8">
-                    <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
-                      {faq.answer}
-                    </p>
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
+//                 {activeIndex === index && (
+//                   <div className="mt-4 pl-6 sm:pl-8">
+//                     <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
+//                       {faq.answer}
+//                     </p>
+//                   </div>
+//                 )}
+//               </div>
+//             ))}
+//           </div>
 
-          {/* Right Side - Brand Info */}
-          <div className="flex flex-col items-center text-center space-y-6 sm:space-y-8">
-            {/* Circular Logo */}
-            <div
-              className="w-20 h-20 sm:w-24 sm:h-24 rounded-full flex items-center justify-center"
-              style={{ backgroundColor: "#1DA1F2" }}
-            >
-              <svg
-                className="w-10 h-10 sm:w-12 sm:h-12 text-white"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
-                />
-              </svg>
-            </div>
+//           {/* Right Side - Brand Info */}
+//           <div className="flex flex-col items-center text-center space-y-6 sm:space-y-8">
+//             {/* Circular Logo */}
+//             <div
+//               className="w-20 h-20 sm:w-24 sm:h-24 rounded-full flex items-center justify-center"
+//               style={{ backgroundColor: "#1DA1F2" }}
+//             >
+//               <svg
+//                 className="w-10 h-10 sm:w-12 sm:h-12 text-white"
+//                 fill="none"
+//                 stroke="currentColor"
+//                 viewBox="0 0 24 24"
+//               >
+//                 <path
+//                   strokeLinecap="round"
+//                   strokeLinejoin="round"
+//                   strokeWidth={2}
+//                   d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+//                 />
+//               </svg>
+//             </div>
 
-            {/* Brand Name */}
-            <h3 className="text-2xl sm:text-3xl font-bold text-gray-900">
-              Brand Bliss Creations
-            </h3>
+//             {/* Brand Name */}
+//             <h3 className="text-2xl sm:text-3xl font-bold text-gray-900">
+//               Brand Bliss Creations
+//             </h3>
 
-            {/* Description */}
-            <p className="text-gray-600 leading-relaxed max-w-md text-sm sm:text-base">
-              A creative agency speciali providing innovative and unique
-              solutions to businesses build
-            </p>
+//             {/* Description */}
+//             <p className="text-gray-600 leading-relaxed max-w-md text-sm sm:text-base">
+//               A creative agency speciali providing innovative and unique
+//               solutions to businesses build
+//             </p>
 
-            {/* Contact Us Button */}
-            <button className="flex items-center text-gray-900 font-medium hover:text-gray-700 transition-colors group text-sm sm:text-base">
-              CONTACT US
-              <img
-                src={ContactBtnImg}
-                alt="Contact icon"
-                className="w-12 sm:w-16 h-8 sm:h-10 rounded-lg ml-4"
-              />
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
+//             {/* Contact Us Button */}
+//             <button className="flex items-center text-gray-900 font-medium hover:text-gray-700 transition-colors group text-sm sm:text-base">
+//               CONTACT US
+//               <img
+//                 src={ContactBtnImg}
+//                 alt="Contact icon"
+//                 className="w-12 sm:w-16 h-8 sm:h-10 rounded-lg ml-4"
+//               />
+//             </button>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
