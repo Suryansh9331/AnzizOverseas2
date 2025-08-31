@@ -95,24 +95,24 @@ const Tools = () => {
     <>
       {/* Hero Section */}
       <div
-        className="min-h-screen w-full bg-cover bg-center bg-no-repeat relative flex items-center justify-center px-4 sm:px-6 lg:px-8"
+        className="min-h-screen w-full bg-cover bg-center bg-no-repeat relative flex items-center justify-center px-4 sm:px-6 lg:px-8 lg:py-28"
         style={{ backgroundImage: `url(${BgImg})` }}
       >
         {/* Content Container */}
         <div className="relative z-10 w-full max-w-7xl mx-auto">
-          <div className="max-w-4xl mx-auto text-center sm:text-left">
+          <div className="max-w-7xl mx-auto text-center sm:text-left">
             {/* Main Heading */}
             <h1 className="text-white mb-6 sm:mb-8">
-              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold leading-tight mb-2 sm:mb-4">
+              <div className="text-3xl  md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold leading-tight mb-2 sm:mb-4">
                 SMART TOOL BUILT FOR
               </div>
 
               {/* Second Line with Arrow and GLOBAL */}
-              <div className="flex items-center justify-center sm:justify-start flex-wrap gap-2 sm:gap-4 mb-2 sm:mb-4">
+              <div className="flex items-center justify-center sm:justify-start flex-wrap gap-4 md:gap-8 mb-2 sm:mb-4">
                 <img
                   src={arrowImg}
                   alt="Arrow"
-                  className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-28 lg:h-28 xl:w-36 xl:h-36"
+                  className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-20 lg:h-20"
                 />
                 <span
                   className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold text-transparent"
