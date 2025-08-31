@@ -1,8 +1,8 @@
 import React from "react";
-import Img2 from "../../assets/Learninghub/image2.png"; 
-import Img3 from "../../assets/Learninghub/image3.png"; 
-import Img4 from "../../assets/Learninghub/image4.png"; 
-import Img5 from "../../assets/Learninghub/image5.png"; 
+import Img2 from "../../assets/Learninghub/card1.png"; 
+import Img3 from "../../assets/Learninghub/card2.png"; 
+import Img4 from "../../assets/Learninghub/card3.png"; 
+import Img5 from "../../assets/Learninghub/card4.png"; 
 
 
 
@@ -23,7 +23,7 @@ const ServicesGridSection = () => {
       id: 2,
       image:
         Img3,
-      title: "Customs & Compliance Made Easy",
+      title: "Customs & Compliance",
       description:
         "Understand HS codes, required documents, and clearance rules to avoid delays, reduce costs, and keep your shipments moving smoothly.",
       button: "WATCH NOW",
@@ -55,7 +55,7 @@ const ServicesGridSection = () => {
     <section className="bg-white py-16 lg:py-20 font-[Outfit]">
       <div className="container max-w-6xl mx-auto px-6 lg:px-12">
         {/* Services Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-14">
           {services.map((service) => (
             <div
               key={service.id}
@@ -66,15 +66,11 @@ const ServicesGridSection = () => {
                 <img
                   src={service.image}
                   alt={service.alt}
-                  className="w-full h-56 sm:h-64 lg:h-72 object-cover"
+                  className="w-full h-64 sm:h-80 lg:h-96 object-contain bg-white"
                 />
 
                 {/* Orange corner lines */}
-                <span className="absolute top-0 left-0 w-10 h-10 border-t-2 border-l-2 border-[#1DA1F2] rounded-tl-md"></span>
-                <span className="absolute top-0 right-0 w-10 h-10 border-t-2 border-r-2 border-[#1DA1F2] rounded-tr-md"></span>
-                <span className="absolute bottom-0 left-0 w-10 h-10 border-b-2 border-l-2 border-[#1DA1F2] rounded-bl-md"></span>
-                <span className="absolute bottom-0 right-0 w-10 h-10 border-b-2 border-r-2 border-[#1DA1F2] rounded-br-md"></span>
-              </div>
+                </div>
 
               {/* Content */}
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900">

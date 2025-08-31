@@ -10,7 +10,7 @@ const TradeStrategiesSection = () => {
           <img
             src={Img6}
             alt="Advanced trade strategies"
-            className="w-full h-64 sm:h-80 lg:h-96 object-contain bg-white"
+            className="w-full h-64 md:h-80 lg:h-96 md:object-contain object-fill bg-white"
           />
 
          
