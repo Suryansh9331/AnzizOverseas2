@@ -5,7 +5,7 @@ import ReadMoreArrowImg from "../../assets/verefied/read-more-arrow.png";
 export default function Hero() {
   return (
     <div
-      className="min-h-screen w-full bg-cover bg-center bg-no-repeat  relative flex items-center justify-center px-4 sm:px-6 lg:px-8"
+      className="min-h-screen w-full bg-cover bg-center bg-no-repeat  relative flex items-center justify-center px-4 sm:px-6 lg:px-8 " 
       style={{ backgroundImage: `url(${BgImg})` }}
     >
       <div className="max-w-7xl w-full flex items-center justify-between">
