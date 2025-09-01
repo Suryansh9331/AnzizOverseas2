@@ -1,9 +1,9 @@
 import React from "react";
 import { CheckCircle2, FileText, Target, Award, ArrowRight } from "lucide-react";
-import TrustBadgeImg from "../../assets/verefied/trust-badge.png";
-import VerifyImg from "../../assets/verefied/verify.png";
-import CopyImg from "../../assets/verefied/copy.png";
-import GoalImg from "../../assets/verefied/goal.png";
+import TrustBadgeImg from "../../assets/verefied/badge.png";
+import VerifyImg from "../../assets/verefied/tb1.png";
+import CopyImg from "../../assets/verefied/tb2.png";
+import GoalImg from "../../assets/verefied/tb3.png";
 
 
 const TrustBadge = () => {
@@ -13,7 +13,7 @@ const TrustBadge = () => {
                 {/* Title Section */}
                 <div className="text-center mb-12">
                     <div className="flex items-center justify-center gap-3 mb-4">
-                        <h2 className="text-4xl lg:text-5xl font-bold text-gray-900">
+                        <h2 className="text-4xl lg:text-5xl font-medium text-black font-[outfit]">
                             Trust Badge
                         </h2>
                         <img 
@@ -27,7 +27,7 @@ const TrustBadge = () => {
                 {/* Cards Section */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                     
-                    <div className="bg-white rounded-2xl border-2 border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300">
+                    <div className="bg-[#F3F7F8] rounded-2xl border-2 border-[#B1B1B1] p-8 hover:shadow-lg transition-shadow duration-300">
                         <div className="mb-6">
                             <img 
                                 src={VerifyImg}
@@ -37,10 +37,10 @@ const TrustBadge = () => {
                         </div>
                         
                         <div className="mb-8">
-                            <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                            <h3 className="text-xl font-semibold text-[#1978E5] mb-2">
                                 Verified by Anji's
                             </h3>
-                            <h3 className="text-xl font-semibold text-gray-900">
+                            <h3 className="text-xl font-semibold text-[#1978E5]">
                                 Overseas
                             </h3>
                         </div>
@@ -52,7 +52,7 @@ const TrustBadge = () => {
                     </div>
 
                     {/* Card 2 - Documents Checked */}
-                    <div className="bg-white rounded-2xl border-2 border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300">
+                    <div className="bg-[#F3F7F8] rounded-2xl border-2 border-[#B1B1B1] p-8 hover:shadow-lg transition-shadow duration-300">
                         <div className="mb-6">
                             <img 
                                 src={CopyImg}
@@ -62,10 +62,10 @@ const TrustBadge = () => {
                         </div>
                         
                         <div className="mb-8">
-                            <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                            <h3 className="text-xl font-semibold text-[#1978E5] mb-2">
                                 Documents
                             </h3>
-                            <h3 className="text-xl font-semibold text-gray-900">
+                            <h3 className="text-xl font-semibold text-[#1978E5]">
                                 Checked
                             </h3>
                         </div>
@@ -77,7 +77,7 @@ const TrustBadge = () => {
                     </div>
 
                     {/* Card 3 - On-time Delivery Track Record */}
-                    <div className="bg-white rounded-2xl border-2 border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300">
+                    <div className="bg-[#F3F7F8] rounded-2xl border-2 border-[#B1B1B1] p-8 hover:shadow-lg transition-shadow duration-300">
                         <div className="mb-6">
                             <img 
                                 src={GoalImg}
@@ -87,10 +87,10 @@ const TrustBadge = () => {
                         </div>
                         
                         <div className="mb-8">
-                            <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                            <h3 className="text-xl font-semibold text-[#1978E5] mb-2">
                                 On-time Delivery
                             </h3>
-                            <h3 className="text-xl font-semibold text-gray-900">
+                            <h3 className="text-xl font-semibold text-[#1978E5]">
                                 Track Record
                             </h3>
                         </div>

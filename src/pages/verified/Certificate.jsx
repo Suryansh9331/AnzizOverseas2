@@ -8,7 +8,7 @@ const ComplianceCertificates = () => {
   ];
 
   return (
-    <section className="w-full px-4 md:px-8 lg:px-16 py-20 font-[Outfit]">
+    <section className="w-full px-4 md:px-8 lg:px-16 lg:py-18 py-8 font-[Outfit]">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-lg md:text-4xl font-semibold text-[#0D171C] mb-4">
           Compliance Certificates

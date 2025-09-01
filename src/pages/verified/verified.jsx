@@ -6,8 +6,9 @@ import { Phone } from "lucide-react";
 import { useState } from "react";
 import ComplianceCertificates from "./Certificate";
 import ProductCatalogs from "./catalog";
-import Img8 from '../../assets/sollutions/image8.png'
-import Img9 from '../../assets/sollutions/image9.png'
+import Img8 from "../../assets/sollutions/image8.png";
+import Img9 from "../../assets/sollutions/image9.png";
+import GlobalTradeSection from "../Home/9th";
 
 const Verified = () => {
   const [formData, setFormData] = useState({
@@ -15,12 +16,6 @@ const Verified = () => {
     email: "",
     message: "",
   });
-
-    const stats = [
-    { number: "300+", label: "Clients Review" },
-    { number: "120+", label: "Team Member" },
-    { number: "1k+", label: "Complete Project" }
-  ]
 
   const handleChange = (e) => {
     setFormData({
@@ -40,83 +35,20 @@ const Verified = () => {
       <TrustBadge />
       <ExporterCards />
 
-          <div className="bg-gray-50 py-16 lg:py-24">
-      <div className="container mx-auto px-6 lg:px-12">
-        
-        {/* Main Heading */}
-        <div className="text-center mb-16 lg:mb-24">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-800 leading-tight">
-              <div className="mb-2">
-                A creative agency specializes in
-              </div>
-              
-              <div className="flex flex-wrap items-center justify-center gap-2 lg:gap-4 mb-2">
-                <span>crafting</span>
-                <div className="flex -space-x-2">
-                  <img 
-                    src={Img8} 
-                    alt="Team member 1"
-                    className="w-24 h-10 sm:w-12 sm:h-12 lg:w-40 lg:h-16 rounded-full border-2 border-white object-cover"
-                  />
-                  
-                </div>
-                <span>unique and impact and</span>
-              </div>
-              
-              <div className="flex flex-wrap items-center justify-center gap-2 lg:gap-4">
-                <span>digital solutions</span>
-                <div className="flex -space-x-2">
-                  <img 
-                    src={Img9} 
-                    alt="Client 1"
-                    className="w-28 h-10 sm:w-12 sm:h-12 lg:w-40 lg:h-16 rounded-full border-2 border-white object-cover"
-                  />
-                  
-                </div>
-                <span>for clients</span>
-              </div>
-            </h2>
-          </div>
-        </div>
-
-        {/* Stats Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-12 mb-16 lg:mb-20">
-          {stats.map((stat, index) => (
-            <div key={index} className="text-center">
-              <div 
-                className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-2"
-                style={{ color: '#1DA1F2' }}
-              >
-                {stat.number}
-              </div>
-              <div 
-                className="text-base lg:text-lg font-medium"
-                style={{ color: '#1DA1F2' }}
-              >
-                {stat.label}
-              </div>
-            </div>
-          ))}
-        </div>
-
-       
-
-      </div>
-    </div>
+      <GlobalTradeSection />
 
       <ComplianceCertificates />
-            <ProductCatalogs/>
+      <ProductCatalogs />
 
-      <section className="max-w-6xl mx-auto ">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 sm:gap-16 mb-16 sm:mb-20">
+      <section className="max-w-6xl mx-auto px-4 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 sm:gap-16 mb-16 sm:mb-20 ">
           {/* Left Side - Contact Form */}
           <div className="space-y-6 sm:space-y-8">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight text-center lg:text-left">
               Get In Touch
             </h2>
 
-            <div className="space-y-6">
+            <div className="space-y-6 ">
               {/* Name Input */}
               <div>
                 <input
@@ -186,8 +118,8 @@ const Verified = () => {
           <div className="space-y-6 sm:space-y-8">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight text-center lg:text-left">
               Contact With Us
-              <br className="hidden sm:block" />
-              Today
+              <br className="hidden lg:block" />
+             {" "}  Today
             </h2>
 
             <p className="text-gray-600 text-base sm:text-lg leading-relaxed text-center lg:text-left">
@@ -228,15 +160,15 @@ const Verified = () => {
         </div>
       </section>
 
-      <section className="w-full bg-white py-20   h-[50vh]  px-4 b">
-        <div className="max-w-3xl mx-auto text-center">
+      <section className="w-full bg-white py-20    px-4 flex flex-col justify-center">
+        <div className="max-w-7xl mx-auto text-center">
           {/* Main Heading */}
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 font-['Outfit']">
-            Free for all buyers — no registratio  required.{" "}
+          <h2 className="text-3xl  md:text-5xl font-bold text-gray-900 font-['Outfit']">
+            Free for all buyers — no registration required.{" "}
           </h2>
 
           {/* Subheading */}
-          <p className="mt-3 text-gray-500 text-sm sm:text-base md:text-lg font-['Poppins']">
+          <p className="mt-5 text-gray-500 text-xs  md:text-lg font-['Poppins']">
             Unlock Markets, Build Trust, and Scale Without Borders{" "}
           </p>
 
