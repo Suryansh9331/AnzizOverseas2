@@ -1,7 +1,7 @@
 import React from "react";
-import Img5 from "../../assets/verefied/image5.png";
-import Img6 from "../../assets/verefied/image6.png";
-import Img7 from "../../assets/verefied/image7.png";
+import Img5 from "../../assets/verefied/catalog1.png";
+import Img6 from "../../assets/verefied/catalog2.png";
+import Img7 from "../../assets/verefied/catalog3.png";
 
 const ProductCatalogs = () => {
   const catalogs = [
@@ -43,7 +43,7 @@ const ProductCatalogs = () => {
             <img
               src={item.image}
               alt={item.title}
-              className="w-full h-72 rounded-lg object-cover"
+              className="w-full h-72 rounded-lg object-fill"
             />
 
             {/* Content */}
