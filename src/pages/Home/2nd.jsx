@@ -24,14 +24,14 @@
 //               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4">
 //                 We Solve The Problems
 //                 <br />
-//                 That Stop Your <span className="text-red-500">Imports</span>
+//                 That Stop Your <span className="text-blue-500">Imports</span>
 //               </h1>
 //             </div>
 
 //             <div className="space-y-8">
 //               <div className="flex gap-6">
 //                 <div className="flex-shrink-0">
-//                   <div className="w-12 h-12 bg-red-50 rounded-full flex items-center justify-center">
+//                   <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center">
 //                     <img src="public/Group 1321315081.png" alt="Global Sourcing" className="w-8 h-8" />
 //                   </div>
 //                 </div>
@@ -46,7 +46,7 @@
 //               {/* Efficient Logistics */}
 //               <div className="flex gap-6">
 //                 <div className="flex-shrink-0">
-//                   <div className="w-12 h-12 bg-red-50 rounded-full flex items-center justify-center">
+//                   <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center">
 //                     <img src="public/truck-icon.png" alt="Efficient Logistics" className="w-8 h-8" />
 //                   </div>
 //                 </div>
@@ -61,7 +61,7 @@
 //               {/* Secure Payments */}
 //               <div className="flex gap-6">
 //                 <div className="flex-shrink-0">
-//                   <div className="w-12 h-12 bg-red-50 rounded-full flex items-center justify-center">
+//                   <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center">
 //                     <img src="public/credit-card-icon.png" alt="Secure Payments" className="w-8 h-8" />
 //                   </div>
 //                 </div>
@@ -83,7 +83,7 @@
 //                 className="w-full max-w-md lg:max-w-lg xl:max-w-xl h-auto object-cover rounded-2xl"
 //               />
 
-//               <div className="absolute -top-4 -right-4 w-8 h-8 bg-red-500 rounded-full opacity-20"></div>
+//               <div className="absolute -top-4 -right-4 w-8 h-8 bg-blue-500 rounded-full opacity-20"></div>
 //               <div className="absolute -bottom-4 -left-4 w-12 h-12 bg-blue-500 rounded-full opacity-20"></div>
 //               <div className="absolute top-1/2 -left-8 w-6 h-6 bg-yellow-500 rounded-full opacity-30 hidden lg:block"></div>
 //             </div>
