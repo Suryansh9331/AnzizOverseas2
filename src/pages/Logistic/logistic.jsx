@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import BgImg from "../../assets/Logistic/hero-bg.jpg";
-import Img1 from "../../assets/Logistic/image1.png";
-import Img2 from "../../assets/Logistic/image2.png";
-import Img3 from "../../assets/Logistic/image3.png";
-import Img4 from "../../assets/Logistic/image4.png";
-import Img5 from "../../assets/Logistic/image5.png";
-import Card1Img from "../../assets/Logistic/card1.png";
-import Card2Img from "../../assets/Logistic/card2.png";
-import Card3Img from "../../assets/Logistic/card3.png";
+import Img1 from "../../assets/Logistic/img1.png";
+import Img2 from "../../assets/Logistic/img2.png";
+import Img3 from "../../assets/Logistic/img3.png";
+import Img4 from "../../assets/Logistic/img4.png";
+import Img5 from "../../assets/Logistic/img5.png";
+import Card1Img from "../../assets/Logistic/icon1.png";
+import Card2Img from "../../assets/Logistic/icon2.png";
+import Card3Img from "../../assets/Logistic/icon3.png";
 import HeroSection from "./Hero";
-
+import { Phone } from "lucide-react";
 const Logistic = () => {
   return (
     <div>
@@ -98,10 +98,12 @@ const WhatWeOffer = () => {
             {leftSectionServices.map((service) => (
               <div
                 key={service.id}
-                className="bg-[#DDF1FD] rounded-2xl p-6"
+                className="bg-[#DDF1FD] rounded-2xl pb-6 px-6 relative"
                 style={{ boxShadow: "3.55px 0px 0px 2.66px #4F95F0" }}
               >
-                <div className="mb-4">
+                <div className="mb-4 ">
+                  {" "}
+                  {/* 👈 pushes image upward */}
                   <img
                     src={service.image}
                     alt={service.title}
@@ -119,7 +121,7 @@ const WhatWeOffer = () => {
                     </li>
                   ))}
                 </ul>
-                <button className="bg-[#1DA1F2] hover:bg-[#d63e2a] text-white px-6 py-2 rounded-full font-medium transition-colors duration-300">
+                <button className="bg-[#1DA1F2] hover:bg-blue-600 text-white px-6 py-2 rounded-full font-medium transition-colors duration-300">
                   READ MORE
                 </button>
               </div>
@@ -139,7 +141,7 @@ const WhatWeOffer = () => {
                   placeholder="Search..."
                   className="w-full px-4 py-3 pr-12 bg-[#DDF1FD] border-0 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1DA1F2] transition-all duration-300"
                 />
-                <button className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-[#1DA1F2] text-white p-2 rounded-lg hover:bg-[#d63e2a] transition-colors duration-300">
+                <button className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-[#1DA1F2] text-white p-2 rounded-lg hover:bg-blue-600 transition-colors duration-300">
                   <svg
                     className="w-5 h-5"
                     fill="none"
@@ -161,8 +163,8 @@ const WhatWeOffer = () => {
             {rightSectionServices.map((service) => (
               <div
                 key={service.id}
-                className="bg-[#DDF1FD] rounded-2xl p-5 shadow-lg"
-                 style={{ boxShadow: "3.55px 0px 0px 2.66px #4F95F0" }}
+                className="bg-[#DDF1FD] rounded-2xl pb-6 px-6 relative"
+                style={{ boxShadow: "3.55px 0px 0px 2.66px #4F95F0" }}
               >
                 <div className="mb-3">
                   <img
@@ -182,7 +184,7 @@ const WhatWeOffer = () => {
                     </li>
                   ))}
                 </ul>
-                <button className="bg-[#1DA1F2] hover:bg-[#d63e2a] text-white px-5 py-2 rounded-full text-sm font-medium transition-colors duration-300">
+                <button className="bg-[#1DA1F2] hover:bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-medium transition-colors duration-300">
                   READ MORE
                 </button>
               </div>
@@ -202,7 +204,7 @@ const WhyChooseTradeFlow = () => {
       description:
         "We work with a network of trusted and reliable logistics partners.",
       image: Card1Img, // Replace with your actual image
-      bgColor: "bg-gray-200",
+      bgColor: "bg-[#E2F3FE]",
     },
     {
       id: 2,
@@ -219,7 +221,7 @@ const WhyChooseTradeFlow = () => {
       description:
         "We ensure full compliance with all international trade regulations.",
       image: Card3Img, // Replace with your actual image
-      bgColor: "bg-gray-200",
+      bgColor: "bg-[#E2F3FE]",
     },
   ];
 
@@ -227,7 +229,7 @@ const WhyChooseTradeFlow = () => {
     <div className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-6xl mx-auto text-center">
         {/* Main Heading */}
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
           Why Choose TradeFlow?
         </h2>
 
@@ -237,7 +239,7 @@ const WhyChooseTradeFlow = () => {
         </h3>
 
         {/* Description */}
-        <p className="text-gray-600 text-lg mb-16 max-w-2xl mx-auto">
+        <p className="text-[#7B7B7B] text-md font-medium font-[poppins] mb-16 max-w-2xl mx-auto">
           Building confidence with compliance, credibility, and consistency
         </p>
 
@@ -248,13 +250,13 @@ const WhyChooseTradeFlow = () => {
               key={factor.id}
               className={`${
                 factor.bgColor
-              } rounded-2xl p-8 text-left relative ${
+              } rounded-2xl p-4 text-left relative ${
                 factor.isCenter ? "text-white" : "text-gray-800"
               }`}
             >
               {/* Image in top-left corner */}
               <div className="mb-6">
-                <div className={`w-12 h-12 rounded-lg overflow-hidden p-1`}>
+                <div className={`w-14 h-14 rounded-lg overflow-hidden p-1`}>
                   <img
                     src={factor.image}
                     alt={factor.title}
@@ -264,11 +266,11 @@ const WhyChooseTradeFlow = () => {
               </div>
 
               {/* Title */}
-              <h4 className="text-4xl font-normal mb-4">{factor.title}</h4>
+              <h4 className="text-xl font-medium mb-4">{factor.title}</h4>
 
               {/* Description */}
               <p
-                className={`mb-6 text-md leading-relaxed ${
+                className={`mb-6 lg:text-md md:text-sm text-md leading-relaxed ${
                   factor.isCenter ? "text-white/90" : "text-gray-600"
                 }`}
               >
@@ -307,7 +309,7 @@ const WhyChooseTradeFlow = () => {
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           {/* Orange Button with Play Icon */}
-          <button className="bg-[#1DA1F2] hover:bg-[#d63e2a] text-white px-8 py-4 rounded-full flex items-center gap-3 font-semibold text-lg transition-colors duration-300">
+          <button className="bg-[#1DA1F2] hover:bg-blue-600 text-white px-8 py-4 rounded-full flex items-center gap-3 font-semibold text-lg transition-colors duration-300">
             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
               <path d="M8 5v14l11-7z" />
             </svg>
@@ -435,8 +437,7 @@ const ContactSection = () => {
           <div className="space-y-6 sm:space-y-8">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight text-center lg:text-left">
               Contact With Us
-              <br className="hidden sm:block" />
-              Today
+              <br className="hidden lg:block" /> Today
             </h2>
 
             <p className="text-gray-600 text-base sm:text-lg leading-relaxed text-center lg:text-left">
@@ -475,36 +476,25 @@ const ContactSection = () => {
           </div>
         </div>
 
-        {/* Bottom CTA Section */}
-        <div className="h-[50vh] text-center space-y-4 sm:space-y-6 pt-12 sm:pt-16 border-t border-gray-200 flex flex-col justify-center">
-          <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-            Ready to Expand Your Global Trade?
-          </h3>
+        <section className="w-full bg-white md:py-20 py-10   px-4 b">
+          <div className="max-w-3xl mx-auto text-center">
+            {/* Main Heading */}
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 font-['Outfit']">
+              Ready to Expand Your Global Trade?
+            </h2>
 
-          <p className="text-gray-600 text-base sm:text-lg">
-            Unlock Markets, Build Trust, and Scale Without Borders
-          </p>
+            {/* Subheading */}
+            <p className="mt-3 text-gray-500 text-sm sm:text-base md:text-lg font-['Poppins']">
+              Unlock Markets, Build Trust, and Scale Without Borders
+            </p>
 
-          <button
-            className="flex items-center justify-center mx-auto px-6 sm:px-8 py-3 sm:py-4 text-white font-medium text-sm sm:text-base rounded-full hover:opacity-90 transition-opacity duration-300"
-            style={{ backgroundColor: "#1DA1F2" }}
-          >
-            <svg
-              className="w-4 h-4 sm:w-5 sm:h-5 mr-3"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-              />
-            </svg>
-            BOOK CALL
-          </button>
-        </div>
+            <div className="mt-6 flex justify-center">
+              <button className="flex items-center gap-2 bg-[#1DA1F2] text-white px-6 py-3 rounded-full font-light font-['Poppins'] hover:opacity-90 transition">
+                <Phone size={18} /> BOOK CALL
+              </button>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react"; // Replace with your custom icon if needed
-import vid from "../../assets/videos/hero.mp4";
+import vid from "../../assets/Logistic/hero (2).mp4";
 
 const HeroSection = () => {
   return (
