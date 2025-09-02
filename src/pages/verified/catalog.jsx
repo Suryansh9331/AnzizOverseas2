@@ -27,12 +27,10 @@ const ProductCatalogs = () => {
 
   return (
     <section className="max-w-7xl mx-auto px-6 py-20 font-[Outfit]">
-      {/* Heading */}
       <h2 className="text-2xl md:text-3xl font-semibold mb-8">
         Product Catalogs
       </h2>
 
-      {/* Cards */}
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {catalogs.map((item, index) => (
           <div
