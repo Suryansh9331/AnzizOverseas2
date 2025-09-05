@@ -4,10 +4,6 @@
 // import logo from "../../assets/Home/footerlogo.png";
 // import { Link } from "react-router-dom";
 
-
-
-
-
 import React from "react";
 import { FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
 import logo from "../../assets/Home/footerlogo.png";
@@ -44,7 +40,6 @@ const Footer = () => {
 
         {/* Middle Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-3 gap-12 ">
-          {/* Contact Info */}
           <div className="space-y-6">
             <div className="flex items-center gap-4">
               <span className="w-10 h-10 flex items-center justify-center bg-[#1A1A1A] rounded-full">
@@ -53,7 +48,7 @@ const Footer = () => {
               <div>
                 <p className="text-xs sm:text-sm text-gray-400">Address</p>
                 <p className="text-sm sm:text-base font-semibold">
-                  66 Broklyant, New India
+                  vijaynagar,near LIG Square , Indore M.P. India
                 </p>
               </div>
             </div>
@@ -141,7 +136,10 @@ const Footer = () => {
             <a href="#" className="hover:text-white transition">
               Privacy Policy
             </a>
-            <a href="mailto: infoanjisoverseas@gmail.com" className="hover:text-white transition">
+            <a
+              href="mailto: infoanjisoverseas@gmail.com"
+              className="hover:text-white transition"
+            >
               Contact Us
             </a>
           </div>
