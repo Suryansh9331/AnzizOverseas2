@@ -145,15 +145,23 @@ const SupplierSection = () => {
 
       {/* Action Buttons */}
       <div className="flex flex-wrap gap-8 md:mt-14  mt-8 mb-6  md:mb-10 justify-center">
-        <button className="flex uppercase items-center gap-2 px-6 py-3 rounded-full text-white bg-[#665957] font-poppins text-xs font-medium ">
+        <a href="tel:9893361171"
+         className="flex uppercase items-center gap-2 px-6 py-3 rounded-full text-white bg-[#665957] font-poppins text-xs font-medium ">
           <BookOpen size={16} /> Request Sample
-        </button>
-        <button className="flex uppercase items-center gap-2 px-5 py-3 rounded-full text-white bg-black font-poppins text-xs font-medium ">
+        </a>
+        <a
+          href="tel:9893361171"
+          className="flex uppercase items-center gap-2 px-5 py-3 rounded-full text-white bg-black font-poppins text-xs font-medium"
+        >
           <MessageSquare size={16} /> Message Supplier
-        </button>
-        <button className="flex uppercase items-center gap-2 px-5 py-3 rounded-full text-white bg-[#1DA1F2] font-poppins text-xs font-medium">
+        </a>
+
+        <a
+          href="tel:9893361171"
+          className="flex uppercase items-center gap-2 px-5 py-3 rounded-full text-white bg-[#1DA1F2] font-poppins text-xs font-medium"
+        >
           <Phone size={16} /> Book Call
-        </button>
+        </a>
       </div>
     </section>
   );
