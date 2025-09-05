@@ -23,12 +23,12 @@ const HeroSection = () => {
 
           {/* Buttons */}
           <div className="lg:mt-16 md:mt-12 mt-6 flex flex-col sm:flex-row items-center md:gap-12 gap-6 justify-center md:justify-start">
-            <button
+            <a href="tel:9893361171"
             
               className="px-6 py-4 rounded-full bg-[#1DA1F2] text-white   font-medium  hover:opacity-90 transition text-md flex items-center gap-2"
             >
               GET A SHIPPING QUOTE
-            </button>
+            </a>
             <button
               
               className="flex items-center gap-2 font-medium text-black border-2 border-black rounded-full px-4  py-1  hover:border-black transition-all text-lg"
