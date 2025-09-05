@@ -198,13 +198,13 @@ const ShippingSection = () => {
             </p>
 
             {/* Call to Expert Button */}
-            <button
+            <a href="tel:9893361171" 
               className="inline-flex items-center gap-3 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-full font-medium transition-all duration-300 group"
               style={{ backgroundColor: "#1DA1F2" }}
             >
               <Phone className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" />
               <span>CALL TO EXPERT</span>
-            </button>
+            </a>
           </div>
 
           {/* Right Side */}
@@ -291,13 +291,13 @@ const ServicesGridSection = () => {
                 </p>
 
                 {/* Call to Expert Button */}
-                <button
+                <a href="tel:9893361171"
                   className="inline-flex items-center gap-3 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-full font-medium transition-all duration-300 group/btn hover:shadow-lg transform hover:-translate-y-1"
                   style={{ backgroundColor: "#1DA1F2" }}
                 >
                   <span>CALL TO EXPERT</span>
                   <Phone className="w-5 h-5 group-hover/btn:rotate-12 transition-transform duration-300" />
-                </button>
+                </a>
               </div>
             </div>
           ))}
@@ -348,13 +348,13 @@ const LostOrDamageSection = () => {
             </p>
 
             {/* Call to Expert Button */}
-            <button
+            <a href="tel:9893361171"
               className="inline-flex items-center gap-3 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-full font-medium transition-all duration-300 group"
               style={{ backgroundColor: "#1DA1F2" }}
             >
               <Phone className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" />
               <span>CALL TO EXPERT</span>
-            </button>
+            </a>
           </div>
 
           {/* Right Side */}
@@ -437,15 +437,15 @@ const StreamlineSupplyChain = () => {
             </p>
 
             {/* Book Call Button */}
-            <button
+            <a href="tel:9893361171"
               className="inline-flex items-center gap-3 text-white px-8 py-4 lg:px-10 lg:py-5 rounded-full font-medium text-base lg:text-lg transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1"
               style={{ backgroundColor: "#1DA1F2" }}
-              onMouseEnter={(e) => (e.target.style.backgroundColor = "#d63384")}
+              onMouseEnter={(e) => (e.target.style.backgroundColor = "#0d8ddb")}
               onMouseLeave={(e) => (e.target.style.backgroundColor = "#1DA1F2")}
             >
               <Phone className="w-5 h-5 lg:w-6 lg:h-6" />
               <span>BOOK CALL</span>
-            </button>
+            </a>
           </div>
         </div>
 
@@ -537,13 +537,13 @@ const GlobalTradeSection = () => {
             Ready to Expand Your Global Trade?
           </h3>
 
-          <button
+          <a href="tel:9893361171"
             className="inline-flex items-center gap-3 text-white px-8 py-4 lg:px-10 lg:py-5 rounded-full font-medium text-base lg:text-lg transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1"
             style={{ backgroundColor: "#1DA1F2" }}
           >
             <Phone className="w-5 h-5 lg:w-6 lg:h-6" />
             <span>BOOK CALL</span>
-          </button>
+          </a>
         </div>
       </div>
     </div>

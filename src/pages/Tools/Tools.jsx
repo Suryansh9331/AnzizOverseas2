@@ -268,7 +268,7 @@ const Tools = () => {
 
               {/* Call to Expert Button */}
               <div className="flex justify-center lg:justify-start">
-                <button
+                <a href="tel:9893361171"
                   className="flex items-center px-6 sm:px-8 py-3 sm:py-4 text-white font-medium text-sm sm:text-base rounded-full hover:opacity-90 transition-opacity duration-300"
                   style={{ backgroundColor: "#1DA1F2" }}
                 >
@@ -286,7 +286,7 @@ const Tools = () => {
                       d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                     />
                   </svg>
-                </button>
+                </a>
               </div>
             </div>
 
@@ -736,6 +736,7 @@ const ContactSection = () => {
             Unlock Markets, Build Trust, and Scale Without Borders
           </p>
 
+         <a href="tel:9893361171">
           <button
             className="flex items-center justify-center mx-auto px-6 sm:px-8 py-3 sm:py-4 text-white font-medium text-sm sm:text-base rounded-full hover:opacity-90 transition-opacity duration-300"
             style={{ backgroundColor: "#1DA1F2" }}
@@ -755,6 +756,7 @@ const ContactSection = () => {
             </svg>
             BOOK CALL
           </button>
+          </a>
         </div>
       </div>
     </div>

@@ -103,9 +103,10 @@ const Learninghub = () => {
           </p>
 
           <div className="mt-6 flex justify-center">
-            <button className="flex items-center gap-2 bg-[#1DA1F2] text-white px-6 py-3 rounded-full font-light font-['Poppins'] hover:opacity-90 transition">
+            <a a href="tel:9893361171"
+             className="flex items-center gap-2 bg-[#1DA1F2] text-white px-6 py-3 rounded-full font-light font-['Poppins'] hover:opacity-90 transition">
               <Phone size={18} /> BOOK CALL
-            </button>
+            </a>
           </div>
         </div>
       </section>

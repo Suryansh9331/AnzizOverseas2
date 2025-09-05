@@ -116,17 +116,16 @@
 //     </section>
 //   );
 // }
- 
+
 import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react"; // Replace with your custom icon if needed
-import  vid from "../../assets/videos/hero.mp4" 
+import vid from "../../assets/videos/hero.mp4";
 
 const HeroSection = () => {
   return (
     <section className="bg-white lg:py-20 py-8 px-6 lg:px-16">
       <div className=" mx-auto flex flex-col-reverse lg:flex-row items-center gap-0">
-        
         {/* Left Section */}
         <div className="flex-1 text-center lg:text-left">
           {/* Main Heading */}
@@ -144,13 +143,13 @@ const HeroSection = () => {
 
           {/* Buttons */}
           <div className="lg:mt-16 md:mt-12 mt-6 flex flex-col sm:flex-row items-center md:gap-12 gap-6 justify-center md:justify-start">
-            <Link
-              to="/get-started"
+            {/* Button to call */}
+            <a
+              href="tel:9893361171"
               className="flex items-center gap-2 font-medium text-black border-b-2 border-transparent hover:border-black transition-all text-lg"
             >
               GET STARTED FREE
-              {/* Replace with your own custom arrow icon */}
-               <span className="w-[71px] h-[40px]">
+              <span className="w-[71px] h-[40px]">
                 <svg
                   width="71"
                   height="40"
@@ -165,8 +164,9 @@ const HeroSection = () => {
                   <circle cx="51" cy="20" r="19.5" stroke="#1DA1F2" />
                 </svg>
               </span>
-            </Link>
+            </a>
 
+            {/* Existing second button */}
             <Link
               to="/how-it-works"
               className="px-6 py-3 rounded-full bg-[#1DA1F2] text-white font-medium shadow hover:opacity-90 transition text-md flex items-center gap-2"
@@ -178,13 +178,7 @@ const HeroSection = () => {
 
         {/* Right Section - Video */}
         <div className="flex-1 w-full">
-          <video
-            className="w-full "
-            autoPlay
-            loop
-            muted
-            playsInline
-          >
+          <video className="w-full " autoPlay loop muted playsInline>
             <source src={vid} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
