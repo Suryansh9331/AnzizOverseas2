@@ -1,5 +1,4 @@
 import React from "react";
-// import chartImg from "../../assets/Learninghub/chart.png";
 import BgImg from "../../assets/Learninghub/herobg.png";
 export default function HeroSection() {
   return (

@@ -6,7 +6,6 @@ const About = lazy(() => import("../pages/About/About"));
 const Contact = lazy(() => import("../pages/Contact/Contact"));
 
 
-// Layout components
 import Footer from "../components/Common/Footer";
 import Tools from "../pages/Tools/Tools";
 import Sollutions from "../pages/Sollutions/Sollutions";
