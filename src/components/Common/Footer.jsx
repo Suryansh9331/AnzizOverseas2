@@ -48,7 +48,7 @@ const Footer = () => {
               <div>
                 <p className="text-xs sm:text-sm text-gray-400">Address</p>
                 <p className="text-sm sm:text-base font-semibold">
-                  vijaynagar,near LIG Square , Indore M.P. India
+                  Vijay Nagar, near LIG Square , Indore M.P. India
                 </p>
               </div>
             </div>
@@ -68,25 +68,26 @@ const Footer = () => {
 
           {/* Links */}
           <div className="grid grid-cols-2 gap-x-12 gap-y-3 text-gray-300 text-sm">
-            <a href="#" className="hover:text-white transition">
-              » About us
-            </a>
-            <a href="#" className="hover:text-white transition">
-              » Testimonial
-            </a>
-            <a href="#" className="hover:text-white transition">
-              » Services
-            </a>
-            <a href="#" className="hover:text-white transition">
-              » Blog
-            </a>
-            <a href="#" className="hover:text-white transition">
+            <Link to ="#" className="hover:text-white transition">
+              » Home
+            </Link>
+            <Link to ="/logistic" className="hover:text-white transition">
+              » Logistic Solutions
+            </Link>
+            <Link to ="/learning-hub" className="hover:text-white transition">
+              » Lerning Hub
+            </Link>
+            <Link to ="verified-supplier" className="hover:text-white transition">
+              » Verfied Suppliers
+            </Link>
+            <a href ="tel:9893361171"
+             className="hover:text-white transition">
               » Contact Us
             </a>
             <Link to="/tools" className="hover:text-white transition">
               » Tools
             </Link>
-            <Link to="/sollutions" className="hover:text-white transition">
+            <Link to="/solutions" className="hover:text-white transition">
               » Solution
             </Link>
           </div>
@@ -130,14 +131,14 @@ const Footer = () => {
             © Anjisoverseas 2024 | All Rights Reserved
           </p>
           <div className="flex flex-wrap justify-center md:justify-end gap-6">
-            <a href="#" className="hover:text-white transition">
+            <Link to ="#" className="hover:text-white transition">
               Terms & Condition
-            </a>
-            <a href="#" className="hover:text-white transition">
+            </Link>
+            <Link to ="#" className="hover:text-white transition">
               Privacy Policy
-            </a>
+            </Link>
             <a
-              href="mailto: infoanjisoverseas@gmail.com"
+              href="mailto:infoanjisoverseas@gmail.com"
               className="hover:text-white transition"
             >
               Contact Us
