@@ -132,7 +132,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400 gap-4">
           <p className="text-center md:text-left">
-            © Yoursitename 2024 | All Rights Reserved
+            © Anjisoverseas 2024 | All Rights Reserved
           </p>
           <div className="flex flex-wrap justify-center md:justify-end gap-6">
             <a href="#" className="hover:text-white transition">
@@ -141,7 +141,7 @@ const Footer = () => {
             <a href="#" className="hover:text-white transition">
               Privacy Policy
             </a>
-            <a href="#" className="hover:text-white transition">
+            <a href="mailto:infoanjisoverseas@gmail.com" className="hover:text-white transition">
               Contact Us
             </a>
           </div>
