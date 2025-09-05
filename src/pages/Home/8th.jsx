@@ -183,7 +183,8 @@ const FAQSection = () => {
             </p>
 
             {/* Contact Us Button */}
-            <button className="flex items-center text-gray-900 font-medium hover:text-gray-700 transition-colors group text-sm sm:text-base">
+            <a href="mailto:infoanjisoverseas@gmail.com"
+             className="flex items-center text-gray-900 font-medium hover:text-gray-700 transition-colors group text-sm sm:text-base">
               CONTACT US
              <span className=" ml-4 w-[71px] h-[40px]">
                 <svg
@@ -200,7 +201,7 @@ const FAQSection = () => {
                   <circle cx="51" cy="20" r="19.5" stroke="#1DA1F2" />
                 </svg>
               </span>
-            </button>
+            </a>
           </div>
         </div>
       </div>

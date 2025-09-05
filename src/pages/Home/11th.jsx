@@ -156,7 +156,7 @@ export default function ConsultationBooking() {
               <Phone className="text-white" />
             </div>
             <h3 className="text-2xl font-[Outfit] font-semibold">
-              Book a 1-on-1 Consultation with Mr. Suprans
+              Book a 1-on-1 Consultation with our experts
             </h3>
           </div>
 
@@ -192,11 +192,11 @@ export default function ConsultationBooking() {
 
             <div className="flex items-center gap-2 mb-2 text-sm">
               <Phone size={18} />
-              <span>212 929 9953</span>
+              <span>+91 989 336 1171</span>
             </div>
             <div className="flex items-center gap-2 text-sm">
               <Mail size={18} />
-              <span>***********.com</span>
+              <span>infoanjisoverseas@gmail.com</span>
             </div>
           </div>
 
