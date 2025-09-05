@@ -60,12 +60,10 @@ const StreamlineSupplyChain = () => {
               ))}
             </div>
 
-            {/* Description */}
             <p className="text-gray-600 text-base lg:text-lg leading-relaxed mb-8">
               Simplify complex logistics with our all-in-one platform. From planning to delivery, we help you move goods faster, safer, and more cost-effectively.
             </p>
 
-            {/* Book Call Button */}
             <button 
               className="inline-flex items-center gap-3 text-white px-8 py-4 lg:px-10 lg:py-5 rounded-full font-medium text-base lg:text-lg transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1"
               style={{ backgroundColor: '#1DA1F2' }}
@@ -79,7 +77,6 @@ const StreamlineSupplyChain = () => {
           </div>
         </div>
 
-        {/* Right Section - Image */}
         <div className="flex-1 relative min-h-96">
           <img 
             src={Img7} 
@@ -87,7 +84,6 @@ const StreamlineSupplyChain = () => {
             className="w-full object-fit"
           />
           
-          {/* Optional: Add some overlay elements to simulate the UI elements shown in the reference */}
           <div className="absolute inset-0 bg-gradient-to-l from-transparent via-transparent to-gray-50 opacity-20 lg:opacity-10"></div>
         </div>
 
