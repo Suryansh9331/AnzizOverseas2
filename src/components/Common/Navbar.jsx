@@ -28,7 +28,6 @@ export default function Navbar() {
           <img src={logo} alt="Logo" className="h-10 md:h-14 w-auto" />
         </Link>
 
-        {/* Desktop Menu (only visible on lg+) */}
         <div className="hidden lg:flex space-x-8 items-center">
           {navLinks.map((link) => (
             <Link
