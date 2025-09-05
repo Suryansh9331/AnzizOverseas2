@@ -65,7 +65,7 @@ const Footer = () => {
               <div>
                 <p className="text-xs sm:text-sm text-gray-400">Email</p>
                 <p className="text-sm sm:text-base font-semibold">
-                  sara.cruz@example.com
+                  infoanjisoverseas@gmail.com
                 </p>
               </div>
             </div>
@@ -141,7 +141,7 @@ const Footer = () => {
             <a href="#" className="hover:text-white transition">
               Privacy Policy
             </a>
-            <a href="mailto:infoanjisoverseas@gmail.com" className="hover:text-white transition">
+            <a href="mailto: infoanjisoverseas@gmail.com" className="hover:text-white transition">
               Contact Us
             </a>
           </div>
