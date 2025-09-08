@@ -38,7 +38,7 @@ const courses = [
 export default function LearningSection() {
   return (
     <div className="bg-[#DDF2FF] min-h-screen px-4 sm:px-6 lg:px-12 py-12 font-outfit">
-      {/* Heading */}
+     
       <div className="text-center max-w-2xl mx-auto mb-8">
         <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold text-[#232323]">
           Learn to Trade Smarter — Not Harder

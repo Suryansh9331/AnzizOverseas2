@@ -34,7 +34,6 @@ export default function TestimonialSection() {
           Where <span className="text-[#1DA1F2]">Ideas</span>
         </h2>
 
-        {/* Swiper Carousel */}
         <Swiper
           modules={[Autoplay]}
           autoplay={{ delay: 4000, disableOnInteraction: false }}

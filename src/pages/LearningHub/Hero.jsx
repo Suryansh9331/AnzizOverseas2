@@ -54,31 +54,6 @@ export default function HeroSection() {
         </div>
       </div>
     </div>
-    // <section className="w-full bg-[#232323] min-h-screen font-[Outfit] text-white px-6 md:px-12 lg:px-20 py-20 relative overflow-hidden">
-
-    //   <div className="absolute bottom-8 right-10 w-[260px] sm:w-[320px] md:w-[380px] lg:w-[420px]">
-    //     <img
-    //       src={chartImg}
-    //       alt="Chart Illustration"
-    //       className="w-full object-contain"
-    //     />
-
-    //     {/* Student Counter */}
-    //     <div className="absolute -bottom-8 right-2 bg-white text-[#232323] rounded-xl shadow-lg px-5 py-3 text-sm font-semibold flex items-center gap-2">
-    //       <span className="w-8 h-8 rounded-full bg-[#1DA1F2] flex items-center justify-center text-white text-xs">
-    //         👤
-    //       </span>
-    //       <span className="text-[#1DA1F2] font-normal">
-    //         <span className="block text-lg text-[#1DA1F2] font-normal">150k</span>
-    //         Active Students
-    //       </span>
-    //     </div>
-    //   </div>
-
-    //   {/* Decorative Shapes */}
-    //   <div className="absolute top-10 left-10 w-3 h-3 rounded-full border border-[#1DA1F2]"></div>
-    //   <div className="absolute top-20 right-16 w-4 h-12 border border-[#1DA1F2] rotate-12"></div>
-    //   <div className="absolute bottom-40 left-16 w-8 h-8 border-2 border-[#1DA1F2] rounded-full"></div>
-    // </section>
+    
   );
 }
