@@ -79,7 +79,6 @@ const FAQSection = () => {
           </h2>
         </div>
 
-        {/* Main Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 sm:gap-16 items-start">
           {/* Left Side - FAQ */}
           <div className="space-y-4 sm:space-y-6">

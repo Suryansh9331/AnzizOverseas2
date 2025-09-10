@@ -27,12 +27,10 @@ function Home() {
       <TestimonialSection />
       <section className="w-full bg-white md:py-20 py-10   px-4 b">
         <div className="max-w-3xl mx-auto text-center">
-          {/* Main Heading */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 font-['Outfit']">
             Ready to Expand Your Global Trade?
           </h2>
 
-          {/* Subheading */}
           <p className="mt-3 text-gray-500 text-sm sm:text-base md:text-lg font-['Poppins']">
             Unlock Markets, Build Trust, and Scale Without Borders
           </p>
