@@ -150,7 +150,6 @@ export default function ToolsSection() {
                   {item.description}
                 </p>
 
-                {/* Restored button */}
                 <div className="mt-2">
                   <button
                     className="bg-[#1DA1F2] text-white px-4 py-2 rounded-full font-poppins text-xs font-medium inline-flex items-center gap-2"

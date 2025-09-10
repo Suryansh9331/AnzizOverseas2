@@ -73,20 +73,7 @@ const GlobalTradeSection = () => {
           ))}
         </div>
 
-        {/* CTA Section */}
-        {/* <div className="text-center">
-          <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 mb-8">
-            Ready to Expand Your Global Trade?
-          </h3>
-          
-          <button 
-            className="inline-flex items-center gap-3 text-white px-8 py-4 lg:px-10 lg:py-5 rounded-full font-medium text-base lg:text-lg transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1"
-            style={{ backgroundColor: '#1DA1F2' }}
-          >
-            <Phone className="w-5 h-5 lg:w-6 lg:h-6" />
-            <span>BOOK CALL</span>
-          </button>
-        </div> */}
+      
       </div>
     </div>
   );
